@@ -1,0 +1,5 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "A_HDJ_Library")(type "KiCad")(uri "${KIPRJMOD}/A_HDJ_Library.pretty")(options "")(descr ""))
+  (lib (name "Module_LattePanda")(type "KiCad")(uri "${KIPRJMOD}/Module_LattePanda.pretty")(options "")(descr ""))
+)
