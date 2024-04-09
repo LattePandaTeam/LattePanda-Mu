@@ -9,9 +9,3 @@
 - Mechanicals: 包括 LattePanda Mu 和散热器以及部分配件在内的尺寸图和三维模型
 
 - Softwares: BIOS, 固件及驱动程序.
-
-## 许可
-
-仓库中所有程序源码适用于 MIT 许可.  
-
-对于不适用 MIT 许可的电路设计与二进制固件等文件采用 [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) 许可
