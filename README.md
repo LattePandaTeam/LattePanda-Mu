@@ -6,7 +6,7 @@ Welcome to the repository of development resources for the LattePanda Mu. With i
 
 - [**LattePanda Website**](https://www.lattepanda.com/)
 
-- [**Join our Discord**](https://discord.gg/k6YPYQgmHt)
+- [**Join our Discord**](https://discord.gg/RkSvc9g7eU)
 
 ## Resource Directory
 
