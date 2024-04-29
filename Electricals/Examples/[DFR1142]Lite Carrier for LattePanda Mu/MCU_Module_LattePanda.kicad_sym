@@ -1640,7 +1640,7 @@
 			(pin bidirectional line
 				(at 40.64 81.28 180)
 				(length 2.54)
-				(name "~{CLKREQ0}"
+				(name "~{CLKREQ3}"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1658,7 +1658,7 @@
 			(pin bidirectional line
 				(at 40.64 78.74 180)
 				(length 2.54)
-				(name "~{CLKREQ1}"
+				(name "~{CLKREQ4}"
 					(effects
 						(font
 							(size 1.27 1.27)
