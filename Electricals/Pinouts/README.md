@@ -103,6 +103,20 @@ Clamshell 22P 0.5mm FFC/FPC Connector
 - **CAM_RST**: SoC GPP_A21
 - **CAM_MCLK**: SoC GPP_D4
 
+## eSPI Contacts
+
+2.54mm Pitch Contacts
+
+| Name     | PIN | PIN | Name        |
+|----------|:---:|:---:|-------------|
+| ESPI_IO0 | 9   | 10  | GND         |
+| ESPI_IO1 | 7   | 8   | NC          |
+| ESPI_IO2 | 5   | 6   | ESPI_RESET# |
+| ESPI_IO3 | 3   | 4   | ESPI_CS0#   |
+| ESPI_CLK | 1   | 2   | +1.8V       |
+
+Contacts on eSPI bus for SoC to communicate with SuperIO, can be used to connect diagnostic card (untested).
+
 ## SODIMM
 
 DDR4 SODIMM pin table is too long, so I put it in a separate csv file.
