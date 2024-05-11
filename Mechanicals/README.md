@@ -6,8 +6,12 @@ The STEP format models are large in size, hence they are compressed using 7-Zip.
 
 ## Files
 
-- **LattePanda_Mu.step.7z**: Contains only the basic model of LattePanda Mu.
+- [**LattePanda_Mu.step.7z**](./LattePanda_Mu.step.7z): Contains only the basic model of LattePanda Mu.
 
-- **LattePanda_Mu_H8.0_Horizontal.step.7z**: Includes the model of LattePanda Mu and the H8.0 horizontal connector, which is the standard mounting method for LattePanda Mu, and can be used directly in PCB design as an enclosure model.
+- [**LattePanda_Mu_H8.0_Horizontal.step.7z**](./LattePanda_Mu_H8.0_Horizontal.step.7z): Includes the model of LattePanda Mu and the H8.0 horizontal connector, which is the standard mounting method for LattePanda Mu, and can be used directly in PCB design as an enclosure model.
 
-- **LattePanda_Mu_H4.0_Horizontal.step.7z**: Includes the model of LattePanda Mu and the H4.0 horizontal connector, and can be used directly in PCB design as an enclosure model.
+- [**LattePanda_Mu_H4.0_Horizontal.step.7z**](./LattePanda_Mu_H4.0_Horizontal.step.7z): Includes the model of LattePanda Mu and the H4.0 horizontal connector, and can be used directly in PCB design as an enclosure model.
+
+- [**FIT0982-Thin-Heatsink.step.7z**](./FIT0982-Thin-Heatsink.step.7z): Thin heatsink only, without Mu.
+
+- [**FIT0989-Fanless-Heatsink.step.7z**](./FIT0989-Fanless-Heatsink.step.7z): Fanless heatsink only, without Mu.
