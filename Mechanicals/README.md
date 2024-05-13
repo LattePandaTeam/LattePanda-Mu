@@ -1,17 +1,17 @@
-# Model Files
+# 模型文件
 
-Models of LattePanda Mu and related accessories for structural design use.
+LattePanda Mu 及相关配件模型, 供结构设计使用.
 
-The STEP format models are large in size, hence they are compressed using 7-Zip. Please use [7-Zip](https://www.7-zip.org/) or another compatible software to extract the `.7z` files before use.
+STEP 格式模型占用空间大, 因此全部使用 7-Zip 压缩. 请使用 [7-Zip](https://www.7-zip.org/) 或其它兼容 `.7z` 格式的软件解压
 
-## Files
+## 文件
 
-- [**LattePanda_Mu.step.7z**](./LattePanda_Mu.step.7z): Contains only the basic model of LattePanda Mu.
+- [**LattePanda_Mu.step.7z**](./LattePanda_Mu.step.7z): 仅包含 LattePanda Mu 的基础模型
 
-- [**LattePanda_Mu_H8.0_Horizontal.step.7z**](./LattePanda_Mu_H8.0_Horizontal.step.7z): Includes the model of LattePanda Mu and the H8.0 horizontal connector, which is the standard mounting method for LattePanda Mu, and can be used directly in PCB design as an enclosure model.
+- [**LattePanda_Mu_H8.0_Horizontal.step.7z**](./LattePanda_Mu_H8.0_Horizontal.step.7z): 包含 H8.0 卧式连接器和 LattePanda Mu 的模型, 是 Mu 标准的安装方式, 可作为封装模型直接用于 PCB 设计
 
-- [**LattePanda_Mu_H4.0_Horizontal.step.7z**](./LattePanda_Mu_H4.0_Horizontal.step.7z): Includes the model of LattePanda Mu and the H4.0 horizontal connector, and can be used directly in PCB design as an enclosure model.
+- [**LattePanda_Mu_H4.0_Horizontal.step.7z**](./LattePanda_Mu_H4.0_Horizontal.step.7z): 包含 H4.0 卧式连接器和 LattePanda Mu 的模型, 可作为封装模型直接用于 PCB 设计
 
-- [**FIT0982-Thin-Heatsink.step.7z**](./FIT0982-Thin-Heatsink.step.7z): Thin heatsink only, without Mu.
+- [**FIT0982-Thin-Heatsink.step.7z**](./FIT0982-Thin-Heatsink.step.7z): 薄散热片模型, 仅散热片不含 Mu.
 
-- [**FIT0989-Fanless-Heatsink.step.7z**](./FIT0989-Fanless-Heatsink.step.7z): Fanless heatsink only, without Mu.
+- [**FIT0989-Fanless-Heatsink.step.7z**](./FIT0989-Fanless-Heatsink.step.7z): 无风扇散热片模型, 仅散热片不含 Mu.
