@@ -1,5 +1,3 @@
 # \[DFR1141\]Full EVA Carrier for LattePanda Mu
 
-Currently, only a **preview version** of the schematic and Gerber files are available for reference.
-
-The KiCAD design files are in progress and will be updated here upon completion.
+当前仅提供**预览版**电路原理图和 Gerber 文件供参考
