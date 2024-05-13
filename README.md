@@ -1,5 +1,7 @@
 # LattePanda Mu Carrier Development Resources
 
+Language: **English** | [Chinese](/../zh/)
+
 ![cover](./cover.jpg)
 
 Welcome to the repository of development resources for the LattePanda Mu. With its extensive array of interfaces, you can craft your very own carrier board. While we have provided several reference designs to spark your creativity, a myriad of exciting possibilities awaits your discovery. This repository will be continuously updated to support the development of your personalized carrier board solutions.
