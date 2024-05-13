@@ -1,19 +1,19 @@
-# LattePanda Mu Carrier Development Resources
+# LattePanda Mu 开发资料
 
 Language: [English](/../main/) | **Chinese**
 
 ![cover](./cover.jpg)
 
-Welcome to the repository of development resources for the LattePanda Mu. With its extensive array of interfaces, you can craft your very own carrier board. While we have provided several reference designs to spark your creativity, a myriad of exciting possibilities awaits your discovery. This repository will be continuously updated to support the development of your personalized carrier board solutions.
+欢迎来到 LattePanda Mu 的开发资料库。您可以利用它的各种接口制作自己的载板。我们提供了一些参考设计，还有无数令人兴奋的可能性等待着您去发现。该资料库将不断更新，以支持您开发个性化的载板解决方案。
 
-- [**LattePanda Website**](https://www.lattepanda.com/)
+- [**LattePanda 官方网站**](https://www.lattepanda.com/)
 
-- [**Join our Discord**](https://discord.gg/RkSvc9g7eU)
+- [**加入官方 QQ 群: 702593819**](https://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=3URGJXEqJeG_dI6tWvMcJ7U_xclQJvQ8&authKey=ZbO3l9eQmQsPnwqZMi3BL34GTQd1pZ1sxeYyY7rXJJMxSnFj1T10K2RJKYAm3DJV&noverify=0&group_code=702593819)
 
-## Resource Directory
+## 目录说明
 
-- **Electricals**: This includes pin descriptions, symbols and footprint libraries, project templates, and example projects.
+- **Electricals**: 引脚说明, 符号与封装库, 项目模板, 示例项目等.
 
-- **Mechanicals**: This section provides dimensional drawings and 3D models of the LattePanda Mu, its heatsink, and other accessories.
+- **Mechanicals**: 包括 LattePanda Mu 和散热器以及部分配件在内的尺寸图和三维模型
 
-- **Software**: BIOS, firmware, drivers, and other related software resources.
+- **Software**: BIOS, 固件, 驱动程序及其他相关软件.
