@@ -1,13 +1,12 @@
-# Drivers
+# 驱动程序
 
-This repository contains only the LattePanda Mu drivers. For drivers related to the carrier board, please refer to the carrier board documentation.
+此仓库仅包括 LattePanda Mu 驱动程序. 由载板扩展的硬件驱动请查看载板说明
 
 ## Windows 10/11
 
-After installing Windows, the system will automatically connect to the internet to download driver updates. If it is unable to access the Windows Update service, or if there are missing drivers after the automatic updates, you can download the offline driver package here.
+Windows 系统安装完成后, 会自动连接互联网以获取驱动程序更新. 如果无法连接到 Windows 更新服务, 或自动更新后仍缺少某些驱动程序, 可在此处下载离线驱动程序包. 
 
-
-| Name                                | Version         | Size    | Download                                                                        |
+| 名称                                | 版本         | 大小    | 下载                                                                        |
 |--------------------------------------------|-----------------|---------|---------------------------------------------------------------------------------|
 | Intel Chipset Driver                       | 10.1.19376.8374 | 2.72 MB | [⬇️](./Chipset_10.1.19376.8374.zip) |
 | Intel Iris Xe Graphics Driver              | Latest          | N/A     | [⬇️](https://www.intel.com/content/www/us/en/download/785597/)[^1] |
@@ -18,11 +17,11 @@ After installing Windows, the system will automatically connect to the internet 
 | Intel Integrated Sensor Solution Driver    | 3.1.0.4589      | 2.73 MB | [⬇️](./ISH_3.1.0.4589.zip)                                                         |
 | TouchPanel Driver                          | 1.3.2.0         | 67.5 KB | [⬇️](./TouchPanel_1.3.2.0.zip)                                                         |
 
-[^1]: Download from intel official website
+[^1]: 从 intel 官网下载
 
 ## Linux
 
-Linux drivers are generally provided by the distribution through kernel and kernel module updates. Please use a newer kernel version to ensure full driver support.
+Linux 驱动程序通常由发行版随内核和内核模块更新提供，请使用新内核以获得完整的驱动程序支持。
 
-- Minimum kernel version: 5.18
-- Recommended kernel version: 6.1 or later
+- 最低内核版本: 5.18
+- 推荐内核版本: 6.1 或更新版本

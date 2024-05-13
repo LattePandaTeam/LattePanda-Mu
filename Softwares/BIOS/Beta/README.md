@@ -1,7 +1,7 @@
-# Beta BIOS
+# 测试版 BIOS
 
-Beta BIOS may contain unforeseen issues and is recommended for professional developers to try out only.
+测试版 BIOS 可能存在意料外的问题, 仅建议专业开发者尝试
 
 ## LP-BS-S70NC1R200-SR-20240410
 
-Modified from **LP-BS-S70NC1R200-SR-A**, with IBECC option enabled for evaluating stability and performance differences.
+基于 **LP-BS-S70NC1R200-SR-A** 修改, 启用 IBECC 选项, 供评估稳定性与性能差异.

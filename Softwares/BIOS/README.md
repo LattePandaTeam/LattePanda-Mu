@@ -1,39 +1,39 @@
 # BIOS
 
-This repository includes official releases and beta versions of BIOS for various branches, as well as related tools.
+包含官方支持分支的正式版与测试版 BIOS 及相关工具
 
-- ⚠ Generally, you should only upgrade the BIOS of the same branch. Cross-branch upgrades should only be performed when testing different BIOS features.
-- ⚠ Upgrading the BIOS across different branches will invalidate the Secure Boot keys.
-- ⚠ Upgrading to the incorrect BIOS branch may result in some functions of the carrier board not working properly.
+- ⚠ 一般情况只应升级同分支 BIOS, 仅当测试不同 BIOS 功能时才需要跨分支升级.
+- ⚠ 跨分支升级会使安全启动密钥失效
+- ⚠ 升级错误的 BIOS 分支可能导致载板功能无法正常工作
 
-## BIOS Naming Rule
+## BIOS 命名规则
 
-> Example:  
+> 例:  
 > LP-BS-S70NC1R200-SR-A-SATA
 >
 > - **LP**: LattePanda
 > - **BS**: BIOS
-> - **S70NC1R200**: Internal version number for LattePanda Mu
+> - **S70NC1R200**: LattePanda Mu 内部代号
 > - **SR**:
->   - SR: Single Rank memory
->   - DR: Dual Rank memory
-> - **A**: BIOS version number, with new versions sequentially labeled in alphabetical order
-> - **SATA**: The interface configuration for this BIOS branch, with detailed configuration differences for each branch available in the README within the branch directory.
->   - No suffix: DFLT (Default) branch
->   - SATA: SATA branch
->   - PCIE: PCIE branch
->   - MUSB: MUSB branch
+>   - SR: Single Rank 单面内存
+>   - DR: Dual Rank 双面内存
+> - **A**: 版本号, 新版本将按字母顺序编号
+> - **SATA**: BIOS 接口配置分支, 各分支详细配置区别见分支目录内 README 说明.
+>   - 无后缀: DFLT 默认分支
+>   - SATA: SATA 分支
+>   - PCIE: PCIE 分支
+>   - MUSB: MUSB 分支
 
-## File Description
+## 文件说明
 
-- Beta: Beta version BIOS, not specific to any branch, intended for professional developers to assess new features.
+- Beta: 测试版 BIOS, 不区分分支, 供专业开发者评估新功能用
 
-- DFLT: Default version BIOS, which is the BIOS branch that comes pre-installed on the LattePanda Mu.
+- DFLT: 默认版 BIOS, 也是 LattePanda Mu 出厂自带的 BIOS 分支.
 
-- MUSB: A BIOS branch configured to maximize USB 3.2 10Gbps interface capabilities (coming soon).
+- MUSB: 最大化 USB 3.2 10Gbps 接口配置的 BIOS 分支 (即将发布)
 
-- PCIE: A BIOS branch configured to maximize PCIe 3.0 lane configurations (coming soon).
+- PCIE: 最大化 PCIe 3.0 通道配置的 BIOS 分支 (即将发布)
 
-- SATA: A BIOS branch that provides SATA interface signal.
+- SATA: 提供 SATA 接口的 BIOS 分支
 
-- Tools: Tools for BIOS maintenance.
+- Tools: BIOS 维护工具

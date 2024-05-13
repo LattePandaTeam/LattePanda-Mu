@@ -1,9 +1,9 @@
-# BIOS Tools
+# BIOS 工具
 
-## Files
+## 文件
 
-- AfuEfi64: BIOS tool for EFI Shell environments
+- AfuEfi64: 适用于 EFI Shell 的 BIOS 工具
 
-- AfuWin64: BIOS tool for Windows
+- AfuWin64: 适用于 Windows 系统的 BIOS 工具
 
-- UEFI-Shell: UEFI Shell image, to be used with AfuEfi64
+- UEFI-Shell: UEFI Shell 镜像文件, 供搭配 AfuEfi64 使用

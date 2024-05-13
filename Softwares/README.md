@@ -1,11 +1,11 @@
-# Software Resources
+# 软件资源
 
-Within this repository, you will find a range of software resources specifically related to the LattePanda Mu, including BIOS updates, firmware, and a variety of drivers.
+与 LattePanda Mu 相关的软件资源，包括 BIOS 更新、固件和各种驱动程序.
 
-Please be aware that this repository is dedicated to providing materials relevant to the LattePanda Mu. For firmware and drivers related to expansion carrier boards, refer to the respective carrier board documentation pages for more details.
+注意此仓库仅包括 LattePanda Mu 相关的资料, 载板扩展外设的固件与驱动程序请查看载板说明页面.
 
-## Resource Categories
+## 文件
 
-- **BIOS**: Contains stable and beta BIOS updates officially supported, as well as related tools.
+- **BIOS**: 包含官方支持分支的正式版与测试版 BIOS 及相关工具
 
-- **Drivers**: Drivers and related descriptions.
+- **Drivers**: 驱动程序及相关说明
