@@ -1,0 +1,4244 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa")
+	(paper "A2")
+	(title_block
+		(title "nvme Carrier for LattePanda Mu")
+		(date "2024-05-24")
+		(rev "V1.0.6")
+		(comment 1 "20240406")
+	)
+	(lib_symbols
+		(symbol "Mechanical:MountingHole_Pad"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole_Pad"
+				(at 0 4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole with connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*Pad*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_Pad_0_1"
+				(circle
+					(center 0 1.27)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_1_1"
+				(pin input line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:GND"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(no_connect
+		(at 349.25 119.38)
+		(uuid "200f592f-0290-46c3-88f8-89fad860196a")
+	)
+	(no_connect
+		(at 167.64 140.97)
+		(uuid "295763a6-57eb-4008-8853-447e5373707e")
+	)
+	(no_connect
+		(at 349.25 116.84)
+		(uuid "402ba125-dc63-4c4b-8d7a-b8fe3ec2ed53")
+	)
+	(no_connect
+		(at 367.03 114.3)
+		(uuid "69337a8c-3b76-4086-8940-bb0d3ce3873f")
+	)
+	(no_connect
+		(at 341.63 120.65)
+		(uuid "82272711-9c64-4179-8e8e-6f87237d90ce")
+	)
+	(no_connect
+		(at 349.25 114.3)
+		(uuid "a76ccf93-adde-48da-9aed-667477d529ff")
+	)
+	(no_connect
+		(at 341.63 123.19)
+		(uuid "c240d1d3-d9d2-4334-b380-a639cb273440")
+	)
+	(wire
+		(pts
+			(xy 195.58 234.95) (xy 227.33 234.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05ba75ed-7c1b-478d-aaeb-6cd0ab9fd4ed")
+	)
+	(wire
+		(pts
+			(xy 367.03 157.48) (xy 341.63 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0601ee9b-37cc-4766-83db-6b86d1ce48e7")
+	)
+	(wire
+		(pts
+			(xy 227.33 186.69) (xy 195.58 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ad01661-7153-4af7-a3a0-e502b504123a")
+	)
+	(wire
+		(pts
+			(xy 341.63 189.23) (xy 367.03 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "189b057b-bd85-4345-96ef-14343a560e64")
+	)
+	(wire
+		(pts
+			(xy 195.58 111.76) (xy 227.33 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "191d81e8-df38-4c15-abcb-5f5ea255cde3")
+	)
+	(wire
+		(pts
+			(xy 195.58 218.44) (xy 227.33 218.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "195932a3-de98-4563-ba20-6409501ba35d")
+	)
+	(wire
+		(pts
+			(xy 367.03 160.02) (xy 341.63 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1dcd1368-e10a-4fb0-92c2-c0bdfe8d402c")
+	)
+	(wire
+		(pts
+			(xy 227.33 163.83) (xy 195.58 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2468d2d3-a034-4868-a8da-2c943e9fbc76")
+	)
+	(wire
+		(pts
+			(xy 341.63 264.16) (xy 367.03 264.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26067ba1-c32d-49b3-bbf8-11c54e87faf8")
+	)
+	(wire
+		(pts
+			(xy 341.63 267.97) (xy 367.03 267.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2904a91c-d879-452d-96a5-d687b0546cab")
+	)
+	(wire
+		(pts
+			(xy 341.63 229.87) (xy 367.03 229.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3017d77e-2b9e-4124-a2bb-cfafbbfbd4b3")
+	)
+	(wire
+		(pts
+			(xy 367.03 140.97) (xy 341.63 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3333ae9c-be09-4758-a389-a20aa8f386b9")
+	)
+	(wire
+		(pts
+			(xy 341.63 256.54) (xy 367.03 256.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34f88942-2598-4ae7-b2ca-cb57117a422d")
+	)
+	(wire
+		(pts
+			(xy 367.03 106.68) (xy 341.63 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "363b3abd-7581-412a-9b92-9c130e6c4e53")
+	)
+	(wire
+		(pts
+			(xy 341.63 193.04) (xy 367.03 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39cd4c2b-2701-46a1-8c51-2e4b87b88a7f")
+	)
+	(wire
+		(pts
+			(xy 227.33 176.53) (xy 195.58 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3bfdf9af-6700-4561-9676-e3d31607ed1c")
+	)
+	(wire
+		(pts
+			(xy 341.63 135.89) (xy 367.03 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e6a0c59-e3a2-4b8b-b6fc-216bdc93d600")
+	)
+	(wire
+		(pts
+			(xy 341.63 227.33) (xy 367.03 227.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41a5a2c4-7492-4be7-814d-eee08ab4e9e4")
+	)
+	(wire
+		(pts
+			(xy 341.63 204.47) (xy 367.03 204.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4234dd49-5b16-461d-92f8-d5298aa8ccd2")
+	)
+	(wire
+		(pts
+			(xy 341.63 252.73) (xy 367.03 252.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42b2a0b3-7cfa-4b5c-b698-15cad525c71b")
+	)
+	(wire
+		(pts
+			(xy 199.39 161.29) (xy 195.58 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44c9775c-4e50-4252-8a34-2a2c99517fbe")
+	)
+	(wire
+		(pts
+			(xy 195.58 106.68) (xy 227.33 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46206094-90bf-4e7a-b8e3-79721c2c4dd7")
+	)
+	(wire
+		(pts
+			(xy 195.58 220.98) (xy 227.33 220.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4beea25f-9b68-40e8-90e0-4f31011b0ab5")
+	)
+	(wire
+		(pts
+			(xy 195.58 229.87) (xy 227.33 229.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4de7c4c5-3680-4e22-b214-85711510ee34")
+	)
+	(wire
+		(pts
+			(xy 341.63 215.9) (xy 367.03 215.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "511d69f6-896f-4382-b95c-6de0f54c0e16")
+	)
+	(wire
+		(pts
+			(xy 341.63 207.01) (xy 367.03 207.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "548e99e0-366c-4bbc-a620-7601c8cad0c4")
+	)
+	(wire
+		(pts
+			(xy 341.63 233.68) (xy 367.03 233.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a663158-6880-4aa5-88c4-984367a7526a")
+	)
+	(wire
+		(pts
+			(xy 341.63 201.93) (xy 367.03 201.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5defa966-b6c4-41b5-8586-15380bd2f5f5")
+	)
+	(wire
+		(pts
+			(xy 341.63 250.19) (xy 367.03 250.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6015515c-e08f-4a82-955b-5d42213b2785")
+	)
+	(wire
+		(pts
+			(xy 227.33 173.99) (xy 195.58 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6336a8a7-0dda-46b0-92d7-5c35f822996a")
+	)
+	(wire
+		(pts
+			(xy 195.58 223.52) (xy 227.33 223.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c635542-82bf-451e-b785-1dfc2d7d6e36")
+	)
+	(wire
+		(pts
+			(xy 195.58 143.51) (xy 227.33 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d9ecc2f-e339-4168-88d1-1cf29684029f")
+	)
+	(wire
+		(pts
+			(xy 341.63 238.76) (xy 367.03 238.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ec75b75-7570-4316-8de8-af5dc3ed22ef")
+	)
+	(wire
+		(pts
+			(xy 341.63 261.62) (xy 367.03 261.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "701a4eb3-2856-4da9-926e-20f87d3a0911")
+	)
+	(wire
+		(pts
+			(xy 195.58 133.35) (xy 227.33 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7264e976-21e7-439e-a243-7b217a78e22e")
+	)
+	(wire
+		(pts
+			(xy 341.63 198.12) (xy 367.03 198.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7425e3f9-931c-4470-bbc7-53f32b26ba04")
+	)
+	(wire
+		(pts
+			(xy 341.63 275.59) (xy 367.03 275.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "791a7286-6f2e-4373-8021-1c470d0362cd")
+	)
+	(wire
+		(pts
+			(xy 341.63 218.44) (xy 367.03 218.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a60ba80-5f87-45db-a626-1b7ea335eedf")
+	)
+	(wire
+		(pts
+			(xy 195.58 114.3) (xy 227.33 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d7227e5-a8dc-4535-932d-40fb56df66ad")
+	)
+	(wire
+		(pts
+			(xy 367.03 152.4) (xy 341.63 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "816ac54c-1e60-4c63-aaf4-7d0a389e2213")
+	)
+	(wire
+		(pts
+			(xy 341.63 241.3) (xy 367.03 241.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81aa58b0-cced-43a6-9fbe-ef69071031fd")
+	)
+	(wire
+		(pts
+			(xy 341.63 222.25) (xy 367.03 222.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ba39e95-ff44-427b-85c5-07551f2f1841")
+	)
+	(wire
+		(pts
+			(xy 341.63 195.58) (xy 367.03 195.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f4c39a5-37d3-430b-960c-1b8b395c2a69")
+	)
+	(wire
+		(pts
+			(xy 227.33 167.64) (xy 195.58 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93da146f-20c8-403d-999c-5ecbb28016e7")
+	)
+	(wire
+		(pts
+			(xy 367.03 148.59) (xy 341.63 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95018daa-6cee-406f-85fb-6987a953cb85")
+	)
+	(wire
+		(pts
+			(xy 195.58 140.97) (xy 227.33 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ed9c800-d2b2-424c-a694-267f5ca8975d")
+	)
+	(wire
+		(pts
+			(xy 341.63 270.51) (xy 367.03 270.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f3dedad-8a7a-44c8-a228-13487f53da9f")
+	)
+	(wire
+		(pts
+			(xy 227.33 191.77) (xy 195.58 191.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0016c3f-8f02-4114-8602-85ebcd07d5fb")
+	)
+	(wire
+		(pts
+			(xy 367.03 146.05) (xy 341.63 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a34641a8-072e-4af7-b234-97d11d2e72e9")
+	)
+	(wire
+		(pts
+			(xy 341.63 224.79) (xy 367.03 224.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a42952ce-5992-4e5b-83a5-32e8faa1786f")
+	)
+	(wire
+		(pts
+			(xy 195.58 237.49) (xy 227.33 237.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a61f51ed-f752-4456-872e-6e71e82f4ce9")
+	)
+	(wire
+		(pts
+			(xy 355.6 184.15) (xy 367.03 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac06eb37-9f78-4a1e-85fa-95692ac6ff1d")
+	)
+	(wire
+		(pts
+			(xy 227.33 170.18) (xy 195.58 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3cece4f-a5e8-4d36-b9de-023c7d18c666")
+	)
+	(wire
+		(pts
+			(xy 367.03 143.51) (xy 341.63 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b49a911b-bfab-4cfa-8122-a59e1285df7f")
+	)
+	(wire
+		(pts
+			(xy 227.33 179.07) (xy 195.58 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8c1b5c4-43f5-495f-beb3-ece2d5c55746")
+	)
+	(wire
+		(pts
+			(xy 227.33 189.23) (xy 195.58 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b969fcdb-9aac-49cf-9fbc-257e33ef3b0b")
+	)
+	(wire
+		(pts
+			(xy 195.58 226.06) (xy 227.33 226.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bdb0238d-8ddf-4c77-aad3-5e1231fa1678")
+	)
+	(wire
+		(pts
+			(xy 227.33 184.15) (xy 195.58 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bfc36857-8590-4d51-a5d3-2376062fd187")
+	)
+	(wire
+		(pts
+			(xy 195.58 109.22) (xy 227.33 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c28b7ad3-413c-47e7-8613-c570b5d51902")
+	)
+	(wire
+		(pts
+			(xy 341.63 210.82) (xy 367.03 210.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3484c97-893e-45fd-ab6f-65d7946b8789")
+	)
+	(wire
+		(pts
+			(xy 195.58 135.89) (xy 227.33 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3aaa9f3-ba42-428e-8039-1c8f5afbe7a3")
+	)
+	(wire
+		(pts
+			(xy 355.6 181.61) (xy 367.03 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7d9493b-c28a-4cf9-9525-dfb48a392907")
+	)
+	(wire
+		(pts
+			(xy 195.58 213.36) (xy 227.33 213.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9de5e02-1328-42af-9b4e-4a43f8a20bc4")
+	)
+	(wire
+		(pts
+			(xy 341.63 273.05) (xy 367.03 273.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf2d7ea7-a768-4cb8-879b-5dcbb0224454")
+	)
+	(wire
+		(pts
+			(xy 341.63 259.08) (xy 367.03 259.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd249f05-c100-4abe-9a22-40ac9aea50b5")
+	)
+	(wire
+		(pts
+			(xy 341.63 213.36) (xy 367.03 213.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd60bd05-a3d9-439d-952e-88319460645b")
+	)
+	(wire
+		(pts
+			(xy 341.63 129.54) (xy 367.03 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df2d4c4f-1678-4457-9e17-72379c8c5c74")
+	)
+	(wire
+		(pts
+			(xy 341.63 236.22) (xy 367.03 236.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e477e3e2-3b92-41e3-a219-ac9006af3f80")
+	)
+	(wire
+		(pts
+			(xy 367.03 154.94) (xy 341.63 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec7c5fdf-a94c-4558-bd01-b9cce3e19815")
+	)
+	(wire
+		(pts
+			(xy 227.33 181.61) (xy 195.58 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed5cf2fe-a67a-4e58-bc46-5acd895d24b2")
+	)
+	(wire
+		(pts
+			(xy 341.63 127) (xy 367.03 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f053200a-9b08-4df4-9e2e-a88cf7700f4d")
+	)
+	(wire
+		(pts
+			(xy 195.58 215.9) (xy 227.33 215.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f14e8915-1aaa-476e-934f-875c110ae912")
+	)
+	(wire
+		(pts
+			(xy 341.63 133.35) (xy 367.03 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9f0bedd-b3c7-442e-9daf-cc4449ffec67")
+	)
+	(wire
+		(pts
+			(xy 367.03 109.22) (xy 341.63 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9f8a0ae-f8a0-49f9-b7eb-5b1613a8e498")
+	)
+	(wire
+		(pts
+			(xy 341.63 245.11) (xy 367.03 245.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9f8c2a5-9676-45ef-a7c0-676845784c1c")
+	)
+	(wire
+		(pts
+			(xy 341.63 247.65) (xy 367.03 247.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "faff1a48-60e1-446b-81ec-4354fb04f1f6")
+	)
+	(wire
+		(pts
+			(xy 195.58 232.41) (xy 227.33 232.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff5fc53b-a0fc-44be-b531-2727d75f9e98")
+	)
+	(label "~{PLT_RST}"
+		(at 350.52 106.68 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "02d4949e-2475-451a-9219-cb264db134aa")
+	)
+	(label "REFCLK3+"
+		(at 347.98 195.58 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1ef32bd0-9b9b-447e-a38d-9797666273fe")
+	)
+	(label "~{PLT_RST}"
+		(at 355.6 181.61 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3c0aea3f-fd5b-4436-8912-31618c944a58")
+	)
+	(label "~{PWR_LED}{slash}~{PSON}"
+		(at 204.47 114.3 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3cafe7a4-fb63-4f9c-ac1c-8b914fe3afa8")
+	)
+	(label "CLKREQ3"
+		(at 349.25 114.3 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "53f085f3-2719-46bf-bf81-6c88afa18f1e")
+	)
+	(label "CLKREQ3"
+		(at 347.98 193.04 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8a6c0b86-165e-4d9f-aaec-13977283d827")
+	)
+	(label "~{WAKE}"
+		(at 355.6 184.15 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8e55f6ef-62a3-42f9-9452-eb1aa1c42a36")
+	)
+	(label "REFCLK3-"
+		(at 347.98 198.12 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9bfaf572-dee5-4d64-b767-4e98a3406f6d")
+	)
+	(label "~{PWR_LED}{slash}~{PSON}"
+		(at 199.39 161.29 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a2e908bd-efdd-40d0-9df7-935e05757cd3")
+	)
+	(label "REFCLK3-"
+		(at 349.25 119.38 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d05b3573-c718-4a6a-9c33-4e00f88cb00d")
+	)
+	(label "REFCLK3+"
+		(at 349.25 116.84 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ee405530-67ca-4ed7-a972-06e63b50a2cc")
+	)
+	(label "~{WAKE}"
+		(at 350.52 109.22 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f47ceb4c-fdd5-4a51-81f3-5ffea0557574")
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 557.53 336.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "02d69af1-d2e7-43ad-8b75-d543a259a540")
+		(property "Reference" "H73"
+			(at 560.07 334.0099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 560.07 336.5499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "A_HDJ_Library:MountingHole_3.2mm_M3_Pad_Via"
+			(at 557.53 336.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 557.53 336.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 557.53 336.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 557.53 336.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 557.53 336.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 557.53 336.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0a296584-8015-4fc4-aecd-be2aadb238df")
+		)
+		(instances
+			(project "nvme Carrier for LattePanda Mu"
+				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa"
+					(reference "H73")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 473.71 336.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0cd0d925-1d08-48e8-8abd-66c9c8d5086f")
+		(property "Reference" "H1"
+			(at 476.25 334.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 476.25 336.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "A_HDJ_Library:MountingHole_3.2mm_M3_Pad_Via"
+			(at 473.71 336.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 473.71 336.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 473.71 336.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 473.71 336.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 473.71 336.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 473.71 336.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a52515ba-41fe-4566-ba55-564c64bf6e95")
+		)
+		(instances
+			(project "nvme Carrier for LattePanda Mu"
+				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 532.13 351.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "10f68c5a-b751-4717-8afc-ab5723eb7547")
+		(property "Reference" "#PWR0138"
+			(at 532.13 358.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 532.13 356.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 532.13 351.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 532.13 351.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 532.13 351.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dc824167-5d57-472b-89e1-fb83ef109c50")
+		)
+		(instances
+			(project "nvme Carrier for LattePanda Mu"
+				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa"
+					(reference "#PWR0138")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 532.13 339.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "16a8d652-e78f-4039-ac83-f833e72a0cd7")
+		(property "Reference" "#PWR0132"
+			(at 532.13 345.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 532.13 344.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 532.13 339.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 532.13 339.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 532.13 339.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "eea90cfe-0e74-4e95-82f5-b0843924418f")
+		)
+		(instances
+			(project "nvme Carrier for LattePanda Mu"
+				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa"
+					(reference "#PWR0132")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 532.13 349.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "26904ca2-7b7c-4d71-a7ae-e6be4c331fb8")
+		(property "Reference" "H72"
+			(at 534.67 346.7099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 534.67 349.2499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "A_HDJ_Library:MountingHole_3.2mm_M3_Pad_Via"
+			(at 532.13 349.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 532.13 349.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 532.13 349.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 532.13 349.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 532.13 349.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 532.13 349.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4d6fa72b-dee9-452b-a91e-e63131f32771")
+		)
+		(instances
+			(project "nvme Carrier for LattePanda Mu"
+				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa"
+					(reference "H72")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 473.71 339.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "53002907-73fe-4c30-9cc7-2e51766b5877")
+		(property "Reference" "#PWR01"
+			(at 473.71 345.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 473.71 344.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 473.71 339.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 473.71 339.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 473.71 339.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b45712e5-bc82-43f6-be07-5a8b31e2ea3b")
+		)
+		(instances
+			(project "nvme Carrier for LattePanda Mu"
+				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 499.11 349.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5c79c14e-cfbb-4e68-95b1-d9e9ff2ffcb5")
+		(property "Reference" "H4"
+			(at 501.65 346.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 501.65 349.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "A_HDJ_Library:MountingHole_3.2mm_M3_Pad_Via"
+			(at 499.11 349.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 499.11 349.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 499.11 349.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 499.11 349.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 499.11 349.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 499.11 349.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b6ba7df2-92fc-45bc-8fcf-b6dd3b320c93")
+		)
+		(instances
+			(project "nvme Carrier for LattePanda Mu"
+				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa"
+					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 557.53 339.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "65272749-f182-427e-962b-05998d1b3ff5")
+		(property "Reference" "#PWR0144"
+			(at 557.53 345.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 557.53 344.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 557.53 339.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 557.53 339.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 557.53 339.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "985f6584-2079-487f-a112-459b5e6926f2")
+		)
+		(instances
+			(project "nvme Carrier for LattePanda Mu"
+				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa"
+					(reference "#PWR0144")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 532.13 336.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "74e10eda-8227-47a7-919d-0cb3e7552526")
+		(property "Reference" "H71"
+			(at 534.67 334.0099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 534.67 336.5499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "A_HDJ_Library:MountingHole_3.2mm_M3_Pad_Via"
+			(at 532.13 336.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 532.13 336.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 532.13 336.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 532.13 336.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 532.13 336.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 532.13 336.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1f037f60-169a-445f-b0dd-d55608224dff")
+		)
+		(instances
+			(project "nvme Carrier for LattePanda Mu"
+				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa"
+					(reference "H71")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 473.71 351.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8b2f38d9-942c-49b4-8df0-bb73d99e4551")
+		(property "Reference" "#PWR02"
+			(at 473.71 358.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 473.71 356.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 473.71 351.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 473.71 351.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 473.71 351.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "18134e26-ff4e-4700-99b1-118877fdf765")
+		)
+		(instances
+			(project "nvme Carrier for LattePanda Mu"
+				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 557.53 349.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a02eb146-21cd-4650-ad61-8b94cbf685a4")
+		(property "Reference" "H74"
+			(at 560.07 346.7099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 560.07 349.2499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "A_HDJ_Library:MountingHole_3.2mm_M3_Pad_Via"
+			(at 557.53 349.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 557.53 349.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 557.53 349.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 557.53 349.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 557.53 349.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 557.53 349.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a04fbe53-539b-4734-bc33-badc5b34a541")
+		)
+		(instances
+			(project "nvme Carrier for LattePanda Mu"
+				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa"
+					(reference "H74")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 557.53 351.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a75f2bef-e752-4c7f-adfd-5f25f0a6f8cf")
+		(property "Reference" "#PWR0195"
+			(at 557.53 358.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 557.53 356.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 557.53 351.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 557.53 351.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 557.53 351.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "af491458-e345-497b-86a6-4012504bc2a4")
+		)
+		(instances
+			(project "nvme Carrier for LattePanda Mu"
+				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa"
+					(reference "#PWR0195")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 473.71 349.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dfeaab4f-49e8-4eff-b881-cdae859dd212")
+		(property "Reference" "H2"
+			(at 476.25 346.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 476.25 349.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "A_HDJ_Library:MountingHole_3.2mm_M3_Pad_Via"
+			(at 473.71 349.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 473.71 349.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 473.71 349.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 473.71 349.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 473.71 349.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 473.71 349.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b6e13c41-6a96-4a71-b730-8f40d3ed2d55")
+		)
+		(instances
+			(project "nvme Carrier for LattePanda Mu"
+				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 499.11 336.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eab31757-c8e1-44c2-ad5e-18ccb4ca1ffb")
+		(property "Reference" "H3"
+			(at 501.65 334.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 501.65 336.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "A_HDJ_Library:MountingHole_3.2mm_M3_Pad_Via"
+			(at 499.11 336.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 499.11 336.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 499.11 336.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 499.11 336.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 499.11 336.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 499.11 336.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fcacac49-97ae-4475-931a-2fe00cca6c47")
+		)
+		(instances
+			(project "nvme Carrier for LattePanda Mu"
+				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 499.11 339.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "edc67783-b22c-400d-a0f8-de7f67c72236")
+		(property "Reference" "#PWR03"
+			(at 499.11 345.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 499.11 344.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 499.11 339.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 499.11 339.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 499.11 339.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6fc7f109-6455-462a-a69f-83d7d9b392e7")
+		)
+		(instances
+			(project "nvme Carrier for LattePanda Mu"
+				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 499.11 351.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f94aa6a2-2c50-4f99-b6cc-02bbd74739a3")
+		(property "Reference" "#PWR04"
+			(at 499.11 358.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 499.11 356.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 499.11 351.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 499.11 351.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 499.11 351.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "36b64f07-4a02-497e-bb17-33a41e7bb259")
+		)
+		(instances
+			(project "nvme Carrier for LattePanda Mu"
+				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 367.03 104.14)
+		(size 27.94 58.42)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "0716e4e5-1aca-46b3-961a-42a6c1122566")
+		(property "Sheetname" "PCIe x1"
+			(at 367.03 103.4284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "PCIe x4.kicad_sch"
+			(at 367.03 163.1446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "PCIE_RX_0-" output
+			(at 367.03 148.59 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "8fdb8eb4-fc79-44b4-9034-0c0e9d147a2d")
+		)
+		(pin "PCIE_RX_0+" output
+			(at 367.03 146.05 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "8a1a1ed2-4b40-411e-9bc4-8e5cb99c8780")
+		)
+		(pin "~{PLT_RST}" input
+			(at 367.03 106.68 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "541fdc90-33a8-4d7c-a6eb-16faa43d223c")
+		)
+		(pin "PCIE_TX_0+" input
+			(at 367.03 140.97 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "b135acf8-19be-4604-9a1a-108faf252dc2")
+		)
+		(pin "PCIE_TX_0-" input
+			(at 367.03 143.51 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "f229b970-eb3e-4f6b-aec0-04cbbff7941d")
+		)
+		(pin "~{WAKE}" input
+			(at 367.03 109.22 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "c4fbe6d2-f6a9-4702-9f6a-d487a3228c29")
+		)
+		(pin "PCIE_TX_1+" input
+			(at 367.03 152.4 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "8b159fbf-6408-42b5-b743-04cc0c40bb28")
+		)
+		(pin "PCIE_TX_1-" input
+			(at 367.03 154.94 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "71ea4198-ac57-44ba-8644-149bb6c16a0b")
+		)
+		(pin "PCIE_RX_1-" output
+			(at 367.03 160.02 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "08c34d97-db7f-45ee-9668-3f3626b25f3f")
+		)
+		(pin "PCIE_RX_1+" output
+			(at 367.03 157.48 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "4645f1b6-9715-4103-a98f-3fa4498e076a")
+		)
+		(pin "CLKREQF" input
+			(at 367.03 114.3 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "5c8d54ec-d7b8-4973-880b-e09e0e5ea396")
+		)
+		(pin "REFCLK_1+" input
+			(at 367.03 127 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "9f04083f-c6e9-464e-927d-104943884a0a")
+		)
+		(pin "REFCLK_1-" input
+			(at 367.03 129.54 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "75cb783c-0a9c-4b67-8306-28be1b7d7dbf")
+		)
+		(pin "REFCLK_0+" input
+			(at 367.03 133.35 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "e942a4f9-3141-4c14-9a54-f16786c53e16")
+		)
+		(pin "REFCLK_0-" input
+			(at 367.03 135.89 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "83ba1523-063e-4e87-8124-5cd365150d33")
+		)
+		(instances
+			(project "nvme Carrier for LattePanda Mu"
+				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 167.64 129.54)
+		(size 27.94 17.78)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "3a597c52-640b-4e4c-bb57-6eff9e8fff95")
+		(property "Sheetname" "Fan_Temp"
+			(at 167.64 128.8284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "fan_temp.kicad_sch"
+			(at 167.64 147.9046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "FAN_1_TAC" output
+			(at 195.58 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "3dc61023-0337-4cc3-82f1-daa88800fe64")
+		)
+		(pin "FAN_1_PWM" input
+			(at 195.58 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "dad7f017-fad4-4296-9c69-dbdee6710db0")
+		)
+		(pin "FAN_2_PWM" input
+			(at 195.58 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "8d5a37ab-6395-4a45-aadc-448b1fdf29e5")
+		)
+		(pin "FAN_2_TAC" output
+			(at 195.58 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "aa09d240-57ef-4b4f-b298-3d91bd17949b")
+		)
+		(pin "TEMP" output
+			(at 167.64 140.97 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "7c49be36-6892-451e-940f-aa10f4a79a04")
+		)
+		(instances
+			(project "nvme Carrier for LattePanda Mu"
+				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 227.33 99.06)
+		(size 114.3 186.69)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "6eee02c2-78c9-4e83-9ccf-e0f7690b57bf")
+		(property "Sheetname" "LattePanda Module"
+			(at 227.33 98.3484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "LattePanda Module.kicad_sch"
+			(at 227.33 286.3346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "HSIO_11_TX+" output
+			(at 341.63 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "b9e9ff47-3729-4029-9cce-fbdd595c9e27")
+		)
+		(pin "HSIO_11_TX-" output
+			(at 341.63 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "f1c73e55-4528-4b1a-baed-58dc7f7ccbc2")
+		)
+		(pin "HSIO_11_RX+" input
+			(at 341.63 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "6938be82-bfd9-4320-a387-2350aceb0e1c")
+		)
+		(pin "HSIO_11_RX-" input
+			(at 341.63 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "3b95dc9f-f498-41c7-948b-d34d68312248")
+		)
+		(pin "HSIO_6_TX-" output
+			(at 341.63 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "0efccd07-6660-4d82-9599-201887f1e329")
+		)
+		(pin "HSIO_6_RX+" input
+			(at 341.63 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "d943ecfb-6092-44d4-9213-32a19bb5abde")
+		)
+		(pin "HSIO_6_RX-" input
+			(at 341.63 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "5ec72a4f-a2ad-4630-9d79-81a17cc9e2a4")
+		)
+		(pin "HSIO_6_TX+" output
+			(at 341.63 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "7d361abb-a4ca-4cfc-aa03-d44bd60e4192")
+		)
+		(pin "USB_2_P1-" bidirectional
+			(at 227.33 226.06 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "02758ee6-a801-4a2d-ae1e-7c4a45d2afc5")
+		)
+		(pin "USB_2_P1+" bidirectional
+			(at 227.33 223.52 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "87a0a0d1-5d15-4dfd-a063-9cac5454be82")
+		)
+		(pin "USB_2_P3+" bidirectional
+			(at 227.33 234.95 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "1c05f0f2-2946-474e-a11d-e61a8f3472e4")
+		)
+		(pin "USB_2_P3-" bidirectional
+			(at 227.33 237.49 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "f95c0bd1-8e1e-40a9-8555-8202dbbe8971")
+		)
+		(pin "HSIO_8_TX+" output
+			(at 341.63 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "f2e60052-8c74-4419-b48e-4d568055f353")
+		)
+		(pin "HSIO_8_TX-" output
+			(at 341.63 247.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "42357124-5e31-4b39-a22f-cad9b3bdc606")
+		)
+		(pin "HSIO_1_TX-" output
+			(at 341.63 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "b010bf11-ac85-4211-a1ec-f33c73ad8ae6")
+		)
+		(pin "HSIO_1_RX+" input
+			(at 341.63 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "b66abf32-5aec-4e67-bbdf-67c55fa14e88")
+		)
+		(pin "HSIO_1_RX-" input
+			(at 341.63 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "d32afbae-10e2-4ae5-add7-25483999ac3b")
+		)
+		(pin "HSIO_0_TX-" output
+			(at 227.33 215.9 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "575488a3-f8bc-4038-8383-c746d33859f5")
+		)
+		(pin "HSIO_0_TX+" output
+			(at 227.33 213.36 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "a1be51f1-2188-4e42-92b2-5c1990925781")
+		)
+		(pin "HSIO_9_TX-" output
+			(at 341.63 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "06bca157-8799-4a0c-8428-5265b5f78ec3")
+		)
+		(pin "HSIO_9_TX+" output
+			(at 341.63 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "c9d76ce3-557f-473e-ae84-a2fa4cc527ac")
+		)
+		(pin "HSIO_8_RX+" input
+			(at 341.63 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "57c36c4e-4981-4f92-a7fa-4a42ac4195fc")
+		)
+		(pin "HSIO_8_RX-" input
+			(at 341.63 252.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "fd1f084e-2d1e-4934-9fb4-62373401a1ba")
+		)
+		(pin "HSIO_9_RX+" input
+			(at 341.63 261.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "c9589374-a58c-4183-941d-ba17023ac1cb")
+		)
+		(pin "HSIO_10_RX-" input
+			(at 341.63 275.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "49abc0b8-93dd-4baa-a2ab-36935fd5f89c")
+		)
+		(pin "HSIO_9_RX-" input
+			(at 341.63 264.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "c4b9cf74-6e94-497d-bdbb-6bf83bc23e45")
+		)
+		(pin "HSIO_10_RX+" input
+			(at 341.63 273.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "9c9684e1-2751-4a6f-8899-2d9cac2e2a71")
+		)
+		(pin "HSIO_10_TX+" output
+			(at 341.63 267.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "18c2ad80-2b3e-4278-9893-717d5ed54b30")
+		)
+		(pin "HSIO_10_TX-" output
+			(at 341.63 270.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "ded585b7-7277-4a0d-bbc3-60073d035524")
+		)
+		(pin "HSIO_0_RX-" input
+			(at 227.33 220.98 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "281e5f85-70f5-4274-a2ad-d0115c4aa609")
+		)
+		(pin "HSIO_1_TX+" output
+			(at 341.63 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "803dfe48-a70e-4226-9ad9-5632f3b38468")
+		)
+		(pin "HSIO_0_RX+" input
+			(at 227.33 218.44 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "60d5cfac-517b-427e-ad18-c78a22be1871")
+		)
+		(pin "~{PLT_RST}" output
+			(at 341.63 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "2e9dea43-f516-49b4-911f-5bc474d1b352")
+		)
+		(pin "~{PEWAKE}" output
+			(at 341.63 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "02b6f1dc-fbd1-4808-9360-bed750a55a77")
+		)
+		(pin "DDI_B_TX1+" output
+			(at 227.33 184.15 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "f32cbadf-0586-4cee-a4c0-ec8f48089092")
+		)
+		(pin "DDI_B_TX2+" output
+			(at 227.33 179.07 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "68d77eaa-4040-4ade-95c6-6976c4dae99f")
+		)
+		(pin "DDI_B_TX2-" output
+			(at 227.33 181.61 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ab01f11c-189a-488a-ae49-3738c2b85f93")
+		)
+		(pin "DDI_B_TX0-" output
+			(at 227.33 191.77 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "59bf61e8-e569-4891-9f60-f8a33e0b1da1")
+		)
+		(pin "DDI_B_TX0+" output
+			(at 227.33 189.23 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "9ed7e1a0-0d89-4587-852e-45fa44049847")
+		)
+		(pin "DDI_B_TX1-" output
+			(at 227.33 186.69 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "28eefb6b-c104-429e-b1ea-1b0aabc38c09")
+		)
+		(pin "DDI_B_TX3-" output
+			(at 227.33 176.53 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "0e9ae957-402d-4a68-a273-0cf1c5b19904")
+		)
+		(pin "DDI_B_DDC_SDA" bidirectional
+			(at 227.33 170.18 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "80adbef0-83cc-4abe-88aa-c6eb47ff010c")
+		)
+		(pin "DDI_B_TX3+" output
+			(at 227.33 173.99 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "5458dad7-6b29-4a56-b99a-7f61334fc06c")
+		)
+		(pin "DDI_B_HPD" input
+			(at 227.33 163.83 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "a1c8feb4-fded-4dff-9d60-9d8bdf6264bc")
+		)
+		(pin "DDI_B_DDC_SCL" output
+			(at 227.33 167.64 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "87b1dea4-457d-4e4c-bc50-9fb40f0b3cc8")
+		)
+		(pin "~{PWR_LED}{slash}~{PSON}" output
+			(at 227.33 114.3 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "22272675-5612-4c94-994d-feccd6c3bfb3")
+		)
+		(pin "~{PWR_SW}" input
+			(at 227.33 109.22 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "d9ca32a6-5762-41e8-8a7e-7dbcb2b0ffb5")
+		)
+		(pin "~{RST_SW}" input
+			(at 227.33 106.68 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "8d16c031-aa22-46ed-b347-09ecabf37c9d")
+		)
+		(pin "SLS_S3" output
+			(at 227.33 111.76 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "f344bcea-58d2-485e-9d86-d1198136c506")
+		)
+		(pin "HSIO_2_TX+" output
+			(at 341.63 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "08b1886c-7d8b-4a6e-8700-75987137201d")
+		)
+		(pin "HSIO_2_RX+" input
+			(at 341.63 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "a6a20d09-574a-4ba5-b1ea-306db2f5fca0")
+		)
+		(pin "HSIO_2_RX-" input
+			(at 341.63 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "7775c32c-e244-43f4-ae97-8efe532027dd")
+		)
+		(pin "HSIO_2_TX-" output
+			(at 341.63 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "e5a67636-988f-4ca6-917c-7e51bbc5edee")
+		)
+		(pin "SUSCLK_WIFI" input
+			(at 341.63 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "28c48c40-be47-4ccd-95f0-f8d98594a577")
+		)
+		(pin "FAN_1_PWM" output
+			(at 227.33 135.89 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "872fb56f-c103-4032-8d8d-ca5559a903a3")
+		)
+		(pin "FAN_1_TAC" input
+			(at 227.33 133.35 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "d38da7e3-c9d6-422c-8d0b-bc51cb7d04ef")
+		)
+		(pin "HSIO_3_TX+" output
+			(at 341.63 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "7b32954d-5ee9-426a-8be1-782f06f56906")
+		)
+		(pin "HSIO_3_TX-" output
+			(at 341.63 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "75476670-ec82-410e-8bab-85e80c85bff8")
+		)
+		(pin "HSIO_3_RX+" input
+			(at 341.63 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "db42adad-a93e-4a20-9f5a-b7a4be0a636d")
+		)
+		(pin "HSIO_3_RX-" input
+			(at 341.63 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "63260ff1-c738-4fcf-a257-a86ce6bce955")
+		)
+		(pin "CLKREQ4" output
+			(at 341.63 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "d62e4721-3947-4cf1-89a4-d7885d098b88")
+		)
+		(pin "REFCLK3-" output
+			(at 341.63 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "de63dbc2-a0d9-49f7-9cff-ebbc36c0c823")
+		)
+		(pin "REFCLK4+" output
+			(at 341.63 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "426c4a3a-6df6-4f5e-ba4d-427ad3127af8")
+		)
+		(pin "REFCLK3+" output
+			(at 341.63 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "fdb6db71-a62f-44a8-b1bb-110f9b041968")
+		)
+		(pin "REFCLK4-" output
+			(at 341.63 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "0907bbcc-4856-4683-ba50-4d7dee836413")
+		)
+		(pin "CLKREQ3" output
+			(at 341.63 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "f8dd99a6-52fa-460a-b54b-f6f25680314e")
+		)
+		(pin "REFCLK1-" output
+			(at 341.63 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "acc42dbf-5b33-4205-b910-30d2c66d220c")
+		)
+		(pin "REFCLK2+" output
+			(at 341.63 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "99e94d0d-f21e-4cad-8408-eee32c1ebac2")
+		)
+		(pin "FAN2_TAC" input
+			(at 227.33 140.97 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ac8c5e02-d8ab-42ac-9c6d-e60e9d91d04d")
+		)
+		(pin "FAN2_PWM" input
+			(at 227.33 143.51 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "a268c8ed-b37e-4031-97ac-4067721cc997")
+		)
+		(pin "REFCLK1+" output
+			(at 341.63 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "8b59dcd8-926f-4b25-a7f7-0337623c3f47")
+		)
+		(pin "REFCLK0+" output
+			(at 341.63 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "51db51f9-2a92-4c27-ae99-3fc7effac00b")
+		)
+		(pin "REFCLK0-" output
+			(at 341.63 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "e65a2b9a-34bf-4d01-8c9e-ff7bd3fa38b2")
+		)
+		(pin "REFCLK2-" output
+			(at 341.63 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "acd5fecc-da17-4787-868c-5609eae0c220")
+		)
+		(pin "USB_2_P2+" bidirectional
+			(at 227.33 229.87 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "b4dd8e42-dbd9-44ae-8c2d-c017f667d48b")
+		)
+		(pin "USB_2_P2-" bidirectional
+			(at 227.33 232.41 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "6f8cbbcf-4624-44b6-9cad-56425505fe75")
+		)
+		(instances
+			(project "nvme Carrier for LattePanda Mu"
+				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 167.64 157.48)
+		(size 27.94 36.83)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b169c362-0273-44a3-bb19-0bcbad977976")
+		(property "Sheetname" "HDMI"
+			(at 167.64 156.7684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "HDMI.kicad_sch"
+			(at 167.64 194.8946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DDI_B_DDC_SCL" output
+			(at 195.58 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "8ce5d87f-c728-49a5-9cd2-a4ba9900ae69")
+		)
+		(pin "DDI_B_DDC_SDA" bidirectional
+			(at 195.58 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "8c705ef8-95a5-418e-af9a-0326b1221c69")
+		)
+		(pin "DDI_B_TX2+" input
+			(at 195.58 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "b8cd176b-244d-4c5f-9eef-91ff44307868")
+		)
+		(pin "DDI_B_TX2-" input
+			(at 195.58 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "3ed28a0c-eb2b-4d10-8042-a094192e5f1b")
+		)
+		(pin "DDI_B_TX1+" input
+			(at 195.58 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "511486fa-afca-47dc-914e-da752840cd23")
+		)
+		(pin "DDI_B_TX1-" input
+			(at 195.58 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "fffeedc7-7cee-4a6f-bd88-df5ba225c2df")
+		)
+		(pin "DDI_B_TX0-" input
+			(at 195.58 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "19047d42-b48e-4a30-81c1-ebe27d32f8f1")
+		)
+		(pin "DDI_B_TX3+" input
+			(at 195.58 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "92220fee-b961-4274-9392-479c400e62a6")
+		)
+		(pin "DDI_B_TX3-" input
+			(at 195.58 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "c9f135a9-341a-484c-be0d-7d19993332d3")
+		)
+		(pin "DDI_B_TX0+" input
+			(at 195.58 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "febba027-a4dd-4cf8-91e7-be9b851005be")
+		)
+		(pin "DDI_B_HPD" input
+			(at 195.58 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "1d454e42-14d9-43e4-8914-eea35c5436d4")
+		)
+		(pin "~{PWR_LED}{slash}~{PSON}" input
+			(at 195.58 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "e3a4984a-37a5-4399-852f-47a123cbddfd")
+		)
+		(instances
+			(project "nvme Carrier for LattePanda Mu"
+				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 167.64 104.14)
+		(size 27.94 12.7)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b23aee49-27d1-466d-98e2-113ee657e42b")
+		(property "Sheetname" "PSU"
+			(at 167.64 103.4284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "PSU.kicad_sch"
+			(at 167.64 117.4246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "~{PWR_LED}{slash}~{PSON}" input
+			(at 195.58 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "01bfb923-323f-4552-93c2-a5ccbee06ba1")
+		)
+		(pin "SLS_S3" input
+			(at 195.58 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "91053ec3-c2f9-418c-b958-c984c20c10ab")
+		)
+		(pin "~{PWR_SW}" output
+			(at 195.58 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "098c6660-93a9-4414-83c6-aaebf2bcea70")
+		)
+		(pin "~{RST_SW}" output
+			(at 195.58 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "9048d091-421e-4729-9b02-7a0397d80d4b")
+		)
+		(instances
+			(project "nvme Carrier for LattePanda Mu"
+				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 367.03 177.8)
+		(size 29.21 107.95)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ef6f480d-d7ca-4322-a73f-5177e707fe9e")
+		(property "Sheetname" "M.2 M Key"
+			(at 367.03 177.0884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "M.2 M Key.kicad_sch"
+			(at 367.03 286.3346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "SUSCLK" output
+			(at 367.03 189.23 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "44f9809a-d8f5-41c9-9296-010744e695d9")
+		)
+		(pin "~{PLT_RST}" input
+			(at 367.03 181.61 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "e72bbeda-e233-4a1c-974c-020c080f218c")
+		)
+		(pin "~{WAKE}" input
+			(at 367.03 184.15 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "64454752-5bd6-42a3-b253-85bffb7a0af1")
+		)
+		(pin "PCIE_TX_1+" input
+			(at 367.03 222.25 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "10aada01-584e-4cf5-9262-0ea77ef6c5ca")
+		)
+		(pin "PCIE_RX_1+" output
+			(at 367.03 227.33 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "8d865af0-2a8a-47bb-87a8-4dc78cb290be")
+		)
+		(pin "PCIE_RX_1-" output
+			(at 367.03 229.87 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "34c8dab6-a191-486a-a0e8-99fbb93e82ac")
+		)
+		(pin "PCIE_TX_1-" input
+			(at 367.03 224.79 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "c69eb226-a27b-4f65-b9f8-1b58a6da7827")
+		)
+		(pin "PCIE_RX_3-" output
+			(at 367.03 252.73 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "2da64f97-8e4b-49d4-a539-e55b4d9fa7d3")
+		)
+		(pin "PCIE_TX_3+" input
+			(at 367.03 245.11 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "b3da44b5-e802-4633-89eb-3617af4fbcde")
+		)
+		(pin "PCIE_TX_3-" input
+			(at 367.03 247.65 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "e4296347-80c1-4223-be90-1ce9faea9e97")
+		)
+		(pin "PCIE_RX_3+" output
+			(at 367.03 250.19 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "9e9e1543-e9f6-4aad-ae17-23332e4f17c0")
+		)
+		(pin "PCIE_RX_0+" output
+			(at 367.03 215.9 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "dc671084-e1df-4473-a7f7-26518b1a1afd")
+		)
+		(pin "PCIE_RX_0-" output
+			(at 367.03 218.44 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "eca263a1-4e70-48da-be66-58c5eb138d55")
+		)
+		(pin "PCIE_TX_0+" input
+			(at 367.03 210.82 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "2e601735-6763-4857-9049-c0d3a6cb5cf2")
+		)
+		(pin "PCIE_TX_0-" input
+			(at 367.03 213.36 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "0afad603-def7-400d-8c98-8c83bd8859f4")
+		)
+		(pin "PCIE_RX_4+" output
+			(at 367.03 261.62 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "1e881dc4-614b-4f44-8fe8-0c31f681effe")
+		)
+		(pin "PCIE_RX_4-" output
+			(at 367.03 264.16 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "2622a885-4135-4072-b084-28012d224730")
+		)
+		(pin "PCIE_TX_4+" input
+			(at 367.03 256.54 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "26fceb28-fcd5-4d95-921e-5d9783557e8e")
+		)
+		(pin "PCIE_TX_4-" input
+			(at 367.03 259.08 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "88407901-2270-4c90-9164-7769f7349d99")
+		)
+		(pin "PCIE_TX_5-" input
+			(at 367.03 270.51 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "c2027598-eee9-4cca-a14e-3fd9bca638bb")
+		)
+		(pin "PCIE_RX_5+" output
+			(at 367.03 273.05 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "c564534c-936b-4809-a06e-56971189d4d4")
+		)
+		(pin "PCIE_RX_5-" output
+			(at 367.03 275.59 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "4e7f33c2-b30b-4e87-bf6b-dfd78a92fce8")
+		)
+		(pin "PCIE_TX_5+" input
+			(at 367.03 267.97 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "aabebc73-d5aa-4d5c-8a42-e107deccd9dd")
+		)
+		(pin "PCIE_TX_2-" input
+			(at 367.03 236.22 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "6138afb8-a3d1-47c1-b0eb-a2d88959273c")
+		)
+		(pin "PCIE_RX_2+" output
+			(at 367.03 238.76 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "2c491840-4f26-4177-9488-162a406997b6")
+		)
+		(pin "PCIE_RX_2-" output
+			(at 367.03 241.3 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "fe4194a2-e3c8-4454-9174-eea765b5d428")
+		)
+		(pin "PCIE_TX_2+" input
+			(at 367.03 233.68 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "dbe98dea-40fd-42a2-b02e-dbd8a43e30de")
+		)
+		(pin "REFCLKMF-" input
+			(at 367.03 198.12 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "c5b32483-4ef5-4b0b-9a8c-59b89b9e78a0")
+		)
+		(pin "REFCLKMF+" input
+			(at 367.03 195.58 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "9a300dea-303e-48f4-a5c1-77cd8ece7853")
+		)
+		(pin "CLKREQF" input
+			(at 367.03 193.04 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "b675f2f3-bfba-4997-817c-5637ff2261a9")
+		)
+		(pin "REFCLKMB+" input
+			(at 367.03 204.47 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ebf9b569-68b1-401e-829a-70a74f11ff5d")
+		)
+		(pin "REFCLKMB-" input
+			(at 367.03 207.01 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "02561ec2-8243-411b-91fe-016d2967fb7a")
+		)
+		(pin "CLKREQB" input
+			(at 367.03 201.93 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "82787425-814b-4907-8890-b1260b2b7fdb")
+		)
+		(instances
+			(project "nvme Carrier for LattePanda Mu"
+				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 167.64 209.55)
+		(size 27.94 30.48)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f9aa04f2-8362-4e9f-9e54-e2b1a8ec9b0a")
+		(property "Sheetname" "USB2.0&USB3.0"
+			(at 167.64 208.8384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "USB2.0&USB3.0.kicad_sch"
+			(at 167.386 240.792 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "USB_2_P2+" bidirectional
+			(at 195.58 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "58a69999-17f0-4ffb-b174-90b598f84aa9")
+		)
+		(pin "USB_2_P1-" bidirectional
+			(at 195.58 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "3fe9a499-0fcc-4f8e-8819-c6762e168463")
+		)
+		(pin "USB_2_P1+" bidirectional
+			(at 195.58 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "2b29224c-1cf5-4a52-b21f-eba1194ad080")
+		)
+		(pin "USB_2_P2-" bidirectional
+			(at 195.58 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "1339f7d6-d68c-4608-b52e-067bc8d0b382")
+		)
+		(pin "USB_2_P3-" bidirectional
+			(at 195.58 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "8368c8c1-6ae8-4dd7-94ba-a933d83859d3")
+		)
+		(pin "USB3_SSRX_P" input
+			(at 195.58 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "4eccca7e-7064-4ca7-9275-db38f4d69a24")
+		)
+		(pin "USB3_SSRX_N" input
+			(at 195.58 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "7d5f2703-a0a4-439d-a9ba-418a54810222")
+		)
+		(pin "USB_2_P3+" bidirectional
+			(at 195.58 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "c931ca97-01f3-4aee-b3a0-3e740c798ee0")
+		)
+		(pin "USB3_SSTX_N" output
+			(at 195.58 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "56403d9e-37f0-4da2-bf71-e92b35661a8b")
+		)
+		(pin "USB3_SSTX_P" output
+			(at 195.58 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "179e5a34-69dd-44af-b6ad-6017b7e623bf")
+		)
+		(instances
+			(project "nvme Carrier for LattePanda Mu"
+				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)

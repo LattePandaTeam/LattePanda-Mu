@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "MCU_Module_LattePanda")(type "KiCad")(uri "${KIPRJMOD}/MCU_Module_LattePanda.kicad_sym")(options "")(descr ""))
+  (lib (name "A_HDJ_Library")(type "KiCad")(uri "${KIPRJMOD}/A_HDJ_Library.kicad_sym")(options "")(descr ""))
+)
