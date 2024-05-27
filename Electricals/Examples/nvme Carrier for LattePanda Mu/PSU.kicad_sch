@@ -11601,7 +11601,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "038d5518-84dc-4574-b37d-536fb9dfb173")
-		(property "Reference" "J17"
+		(property "Reference" "J5"
 			(at 58.42 99.06 0)
 			(effects
 				(font
@@ -11692,7 +11692,7 @@
 		(instances
 			(project "nvme Carrier for LattePanda Mu"
 				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa/b23aee49-27d1-466d-98e2-113ee657e42b"
-					(reference "J17")
+					(reference "J5")
 					(unit 1)
 				)
 			)

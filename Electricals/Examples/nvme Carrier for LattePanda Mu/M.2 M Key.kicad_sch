@@ -7566,7 +7566,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3V3c"
+		(property "Value" "+3V3bb"
 			(at 335.28 279.4 0)
 			(effects
 				(font
@@ -12200,7 +12200,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3V3bb"
+		(property "Value" "+3V3aa"
 			(at 163.83 275.59 0)
 			(effects
 				(font
@@ -15717,7 +15717,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3V3b"
+		(property "Value" "+3V3c"
 			(at 527.05 107.95 0)
 			(effects
 				(font
@@ -18153,7 +18153,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3V3aa"
+		(property "Value" "+3V3b"
 			(at 336.55 106.68 0)
 			(effects
 				(font
