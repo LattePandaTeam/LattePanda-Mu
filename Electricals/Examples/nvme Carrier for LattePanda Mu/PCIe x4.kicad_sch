@@ -2514,207 +2514,6 @@
 				)
 			)
 		)
-		(symbol "Connector:Conn_01x03_Pin"
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x03_Pin"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x03, script generated"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_01x03_Pin_1_1"
-				(polyline
-					(pts
-						(xy 1.27 -2.54) (xy 0.8636 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy 0.8636 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 2.54) (xy 0.8636 2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 0.8636 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 2.667)
-					(end 0 2.413)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(pin passive line
-					(at 5.08 2.54 180)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -2.54 180)
-					(length 3.81)
-					(name "Pin_3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Device:C"
 			(pin_numbers hide)
 			(pin_names
@@ -3758,10 +3557,6 @@
 		(uuid "5863b586-25e0-42c6-84b1-ea0113128f2e")
 	)
 	(no_connect
-		(at 416.56 176.53)
-		(uuid "597090aa-96f5-4b2f-a1fd-ce0e64ad5977")
-	)
-	(no_connect
 		(at 384.81 209.55)
 		(uuid "662bff85-a6e8-454b-bbe6-09ff9fdc9644")
 	)
@@ -3814,10 +3609,6 @@
 		(uuid "9e50246d-19aa-4713-92df-7fc40a8053ec")
 	)
 	(no_connect
-		(at 414.02 194.31)
-		(uuid "a7dfe4f8-657c-43d0-857d-5829b4b7ef4a")
-	)
-	(no_connect
 		(at 168.91 233.68)
 		(uuid "a82fcc0a-124e-4704-a256-713f7ad7b2b1")
 	)
@@ -3866,16 +3657,8 @@
 		(uuid "f1d6e21e-06fe-42ca-9dc0-36717e6dff09")
 	)
 	(no_connect
-		(at 228.6 193.04)
-		(uuid "f2e4df61-a8c9-4e90-9fb1-850fb16b9739")
-	)
-	(no_connect
 		(at 384.81 214.63)
 		(uuid "f33c4269-0d5b-4c23-aedf-e17f89679d65")
-	)
-	(no_connect
-		(at 231.14 175.26)
-		(uuid "f853d406-3c9e-4469-90b4-28918d7cf37b")
 	)
 	(no_connect
 		(at 168.91 226.06)
@@ -4093,16 +3876,6 @@
 	)
 	(wire
 		(pts
-			(xy 411.48 176.53) (xy 411.48 179.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3ed70727-f7d0-479c-8204-c77409d0e1d9")
-	)
-	(wire
-		(pts
 			(xy 369.57 137.16) (xy 369.57 140.97)
 		)
 		(stroke
@@ -4150,16 +3923,6 @@
 			(type default)
 		)
 		(uuid "42cf19d9-c5d7-44fc-a77b-5a509c7aeaf1")
-	)
-	(wire
-		(pts
-			(xy 226.06 175.26) (xy 226.06 177.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "471d880f-1cc3-4cf1-b08b-876213ff6476")
 	)
 	(wire
 		(pts
@@ -4773,16 +4536,6 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 193.04) (xy 228.6 175.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d3c4c9e3-4455-4fa0-aaaf-2c6e5b99555e")
-	)
-	(wire
-		(pts
 			(xy 351.79 214.63) (xy 351.79 212.09)
 		)
 		(stroke
@@ -4800,16 +4553,6 @@
 			(type default)
 		)
 		(uuid "dbb9fd76-c59e-4761-b238-407611a800da")
-	)
-	(wire
-		(pts
-			(xy 414.02 194.31) (xy 414.02 176.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "df1f148c-c34c-46f2-94df-5d51429735ae")
 	)
 	(wire
 		(pts
@@ -6271,77 +6014,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x03_Pin")
-		(at 414.02 171.45 270)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board no)
-		(dnp yes)
-		(fields_autoplaced yes)
-		(uuid "451e6ab1-3c21-47b9-adca-dac129e1cf3a")
-		(property "Reference" "J82"
-			(at 414.02 166.37 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x03_Pin"
-			(at 414.02 168.91 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical"
-			(at 414.02 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 414.02 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x03, script generated"
-			(at 414.02 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ac6068cb-ba18-4a12-9a59-e6613f7f1eed")
-		)
-		(pin "3"
-			(uuid "4671a440-4662-49e8-9b73-7e8821f5fdb9")
-		)
-		(pin "2"
-			(uuid "8175caec-5c61-498b-ab21-654a7d42fe47")
-		)
-		(instances
-			(project "nvme Carrier for LattePanda Mu"
-				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa/0716e4e5-1aca-46b3-961a-42a6c1122566"
-					(reference "J82")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+12VA")
 		(at 335.28 158.75 0)
 		(unit 1)
@@ -6402,72 +6074,6 @@
 			(project "nvme Carrier for LattePanda Mu"
 				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa/0716e4e5-1aca-46b3-961a-42a6c1122566"
 					(reference "#PWR0150")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 411.48 179.07 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5607e1fb-3af9-42dd-be8c-5dd960d80a59")
-		(property "Reference" "#PWR0126"
-			(at 411.48 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 411.48 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 411.48 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 411.48 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 411.48 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b22380bd-5c28-400a-8e05-8b6db8388d85")
-		)
-		(instances
-			(project "nvme Carrier for LattePanda Mu"
-				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa/0716e4e5-1aca-46b3-961a-42a6c1122566"
-					(reference "#PWR0126")
 					(unit 1)
 				)
 			)
@@ -7016,143 +6622,6 @@
 			(project "nvme Carrier for LattePanda Mu"
 				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa/0716e4e5-1aca-46b3-961a-42a6c1122566"
 					(reference "#PWR0155")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x03_Pin")
-		(at 228.6 170.18 270)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board no)
-		(dnp yes)
-		(fields_autoplaced yes)
-		(uuid "624be510-bade-478f-9ea3-aae5eea48f76")
-		(property "Reference" "J81"
-			(at 228.6 165.1 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x03_Pin"
-			(at 228.6 167.64 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical"
-			(at 228.6 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 228.6 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x03, script generated"
-			(at 228.6 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "577d020f-8da7-4acd-b2b1-c730750e03c6")
-		)
-		(pin "3"
-			(uuid "847916a9-14e4-4135-babe-ff5559ca8354")
-		)
-		(pin "2"
-			(uuid "6c8e4aff-811f-4902-a0e7-81db9e3474e7")
-		)
-		(instances
-			(project "nvme Carrier for LattePanda Mu"
-				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa/0716e4e5-1aca-46b3-961a-42a6c1122566"
-					(reference "J81")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 226.06 177.8 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "76a75fdc-d5e7-4fd5-bb41-c50fb853c6cb")
-		(property "Reference" "#PWR0105"
-			(at 226.06 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 226.06 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 226.06 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 226.06 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 226.06 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "dfdd382c-bbc0-4af4-82e4-c5f9c02cbc3e")
-		)
-		(instances
-			(project "nvme Carrier for LattePanda Mu"
-				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa/0716e4e5-1aca-46b3-961a-42a6c1122566"
-					(reference "#PWR0105")
 					(unit 1)
 				)
 			)
