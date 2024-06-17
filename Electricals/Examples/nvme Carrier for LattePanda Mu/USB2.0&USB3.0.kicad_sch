@@ -3040,7 +3040,7 @@
 		)
 		(uuid "77f14f5a-104f-41b1-856c-4ffe400c61ba")
 	)
-	(label "CON_USB1_D_N"
+	(label "CON_USB2_D_N"
 		(at 299.72 189.23 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3095,7 +3095,7 @@
 		)
 		(uuid "da8b9695-5bb0-451f-a80b-9f1340256875")
 	)
-	(label "CON_USB2_D_P"
+	(label "CON_USB1_D_P"
 		(at 259.08 179.07 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3106,7 +3106,7 @@
 		)
 		(uuid "daa3fba8-12d1-445e-b051-d2cd71455066")
 	)
-	(label "CON_USB1_D_P"
+	(label "CON_USB2_D_P"
 		(at 299.72 179.07 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3117,7 +3117,7 @@
 		)
 		(uuid "ddf2299e-cacf-4005-bd5f-220fb38de560")
 	)
-	(label "CON_USB2_D_N"
+	(label "CON_USB1_D_N"
 		(at 259.08 189.23 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3128,7 +3128,7 @@
 		)
 		(uuid "fe4f54d9-f5e6-4e60-8baa-6bef00d59d38")
 	)
-	(hierarchical_label "USB_2_P3+"
+	(hierarchical_label "USB_2_P2+"
 		(shape bidirectional)
 		(at 242.57 165.1 180)
 		(fields_autoplaced yes)
@@ -3140,7 +3140,7 @@
 		)
 		(uuid "0d746c26-990d-4f2c-a25e-9aacaa888789")
 	)
-	(hierarchical_label "USB_2_P2-"
+	(hierarchical_label "USB_2_P3-"
 		(shape bidirectional)
 		(at 242.57 162.56 180)
 		(fields_autoplaced yes)
@@ -3164,7 +3164,7 @@
 		)
 		(uuid "474a9f7a-1ed0-4965-8dbb-0c7100737fae")
 	)
-	(hierarchical_label "USB_2_P2+"
+	(hierarchical_label "USB_2_P3+"
 		(shape bidirectional)
 		(at 242.57 160.02 180)
 		(fields_autoplaced yes)
@@ -3188,7 +3188,7 @@
 		)
 		(uuid "70adc3e3-742e-4d29-bc7a-740f6fa1d924")
 	)
-	(hierarchical_label "USB_2_P3-"
+	(hierarchical_label "USB_2_P2-"
 		(shape bidirectional)
 		(at 242.57 167.64 180)
 		(fields_autoplaced yes)
