@@ -260,6 +260,16 @@
 	)
 	(wire
 		(pts
+			(xy 195.58 242.57) (xy 227.33 242.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06a9e7e8-9eb2-4dbe-a3d3-da077d059fb6")
+	)
+	(wire
+		(pts
 			(xy 227.33 186.69) (xy 195.58 186.69)
 		)
 		(stroke
@@ -807,6 +817,16 @@
 			(type default)
 		)
 		(uuid "bdb0238d-8ddf-4c77-aad3-5e1231fa1678")
+	)
+	(wire
+		(pts
+			(xy 195.58 240.03) (xy 227.33 240.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be438598-2a13-41a7-8198-db9d04ea930d")
 	)
 	(wire
 		(pts
@@ -3487,6 +3507,26 @@
 			)
 			(uuid "6f8cbbcf-4624-44b6-9cad-56425505fe75")
 		)
+		(pin "USB_2_P4+" bidirectional
+			(at 227.33 240.03 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "357c8985-8797-4db1-acc4-ebbc4560accf")
+		)
+		(pin "USB_2_P4-" bidirectional
+			(at 227.33 242.57 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "6fcebc29-858c-476c-ad0a-e35fd0b543a4")
+		)
 		(instances
 			(project "nvme Carrier for LattePanda Mu"
 				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa"
@@ -4101,7 +4141,7 @@
 	)
 	(sheet
 		(at 167.64 209.55)
-		(size 27.94 30.48)
+		(size 27.94 35.56)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -4120,7 +4160,7 @@
 			)
 		)
 		(property "Sheetfile" "USB2.0&USB3.0.kicad_sch"
-			(at 167.386 240.792 0)
+			(at 167.894 245.618 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4227,6 +4267,26 @@
 				(justify right)
 			)
 			(uuid "179e5a34-69dd-44af-b6ad-6017b7e623bf")
+		)
+		(pin "USB_2_P4-" bidirectional
+			(at 195.58 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "2a1821f9-5d8c-4604-b6b8-77309d63ac90")
+		)
+		(pin "USB_2_P4+" bidirectional
+			(at 195.58 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "b481c885-5d74-4725-ad8c-b51317e71f2e")
 		)
 		(instances
 			(project "nvme Carrier for LattePanda Mu"

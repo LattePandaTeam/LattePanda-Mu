@@ -11077,7 +11077,7 @@
 		)
 		(uuid "f59bb247-7be6-4444-8e63-22584d7379ab")
 	)
-	(text "Vout=0.6*(21.5+4.7)/4.7=3.345V"
+	(text "Vout=0.6*(100+22)/22=3.327V"
 		(exclude_from_sim no)
 		(at 353.06 137.16 0)
 		(effects
@@ -11715,7 +11715,7 @@
 				)
 			)
 		)
-		(property "Value" "21.5K/1%"
+		(property "Value" "100K/1%"
 			(at 482.6 184.15 0)
 			(effects
 				(font
@@ -12769,7 +12769,7 @@
 				)
 			)
 		)
-		(property "Value" "21.5K/1%"
+		(property "Value" "100K/1%"
 			(at 354.33 256.54 0)
 			(effects
 				(font
@@ -13144,7 +13144,7 @@
 				)
 			)
 		)
-		(property "Value" "4.7K/1%"
+		(property "Value" "22K/1%"
 			(at 354.33 264.16 0)
 			(effects
 				(font
@@ -13830,7 +13830,7 @@
 				)
 			)
 		)
-		(property "Value" "4.7K/1%"
+		(property "Value" "22K/1%"
 			(at 483.87 228.6 0)
 			(effects
 				(font
@@ -16541,7 +16541,7 @@
 				)
 			)
 		)
-		(property "Value" "4.7K/1%"
+		(property "Value" "22K/1%"
 			(at 351.79 190.5 0)
 			(effects
 				(font
@@ -16916,7 +16916,7 @@
 				)
 			)
 		)
-		(property "Value" "4.7K/1%"
+		(property "Value" "22K/1%"
 			(at 351.79 153.67 0)
 			(effects
 				(font
@@ -18533,7 +18533,7 @@
 				)
 			)
 		)
-		(property "Value" "4.7K/1%"
+		(property "Value" "22K/1%"
 			(at 354.33 300.99 0)
 			(effects
 				(font
@@ -19279,7 +19279,7 @@
 				)
 			)
 		)
-		(property "Value" "21.5K/1%"
+		(property "Value" "100K/1%"
 			(at 353.06 219.71 0)
 			(effects
 				(font
@@ -20427,7 +20427,7 @@
 				)
 			)
 		)
-		(property "Value" "4.7K/1%"
+		(property "Value" "22K/1%"
 			(at 482.6 191.77 0)
 			(effects
 				(font
@@ -22992,7 +22992,7 @@
 				)
 			)
 		)
-		(property "Value" "4.7K/1%"
+		(property "Value" "22K/1%"
 			(at 485.14 265.43 0)
 			(effects
 				(font
@@ -24503,7 +24503,7 @@
 				)
 			)
 		)
-		(property "Value" "21.5K/1%"
+		(property "Value" "100K/1%"
 			(at 351.79 146.05 0)
 			(effects
 				(font
@@ -24700,7 +24700,7 @@
 				)
 			)
 		)
-		(property "Value" "4.7K/1%"
+		(property "Value" "22K/1%"
 			(at 485.14 302.26 0)
 			(effects
 				(font
@@ -26904,7 +26904,7 @@
 				)
 			)
 		)
-		(property "Value" "21.5K/1%"
+		(property "Value" "100K/1%"
 			(at 483.87 220.98 0)
 			(effects
 				(font
@@ -27007,7 +27007,7 @@
 				)
 			)
 		)
-		(property "Value" "21.5K/1%"
+		(property "Value" "100K/1%"
 			(at 351.79 182.88 0)
 			(effects
 				(font
@@ -27316,7 +27316,7 @@
 				)
 			)
 		)
-		(property "Value" "21.5K/1%"
+		(property "Value" "100K/1%"
 			(at 485.14 294.64 0)
 			(effects
 				(font
@@ -28023,7 +28023,7 @@
 				)
 			)
 		)
-		(property "Value" "21.5K/1%"
+		(property "Value" "100K/1%"
 			(at 354.33 293.37 0)
 			(effects
 				(font
@@ -32384,7 +32384,7 @@
 				)
 			)
 		)
-		(property "Value" "4.7K/1%"
+		(property "Value" "22K/1%"
 			(at 353.06 227.33 0)
 			(effects
 				(font
@@ -32592,7 +32592,7 @@
 				)
 			)
 		)
-		(property "Value" "21.5K/1%"
+		(property "Value" "100K/1%"
 			(at 485.14 257.81 0)
 			(effects
 				(font

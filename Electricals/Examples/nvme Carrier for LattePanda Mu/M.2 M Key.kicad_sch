@@ -4660,7 +4660,7 @@
 	)
 	(text "32.768kHz clock for low power mode"
 		(exclude_from_sim no)
-		(at 151.13 318.77 0)
+		(at 152.654 318.77 0)
 		(effects
 			(font
 				(size 1.27 1.27)

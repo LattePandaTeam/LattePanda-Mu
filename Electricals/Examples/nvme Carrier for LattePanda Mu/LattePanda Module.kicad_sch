@@ -7287,10 +7287,6 @@
 		(uuid "35ab65ae-0b53-4f74-8631-f880c86b245d")
 	)
 	(no_connect
-		(at 270.51 190.5)
-		(uuid "39dac926-9c01-4734-829e-50ba25a185a9")
-	)
-	(no_connect
 		(at 351.79 298.45)
 		(uuid "4019d1d5-e419-42bf-944f-abbd7ed77aa8")
 	)
@@ -7517,10 +7513,6 @@
 	(no_connect
 		(at 270.51 256.54)
 		(uuid "e50f0d9e-6b5f-4e35-a9f2-be73a90a4ffe")
-	)
-	(no_connect
-		(at 270.51 193.04)
-		(uuid "e78961e7-b61c-44dd-a52a-12d93046cf97")
 	)
 	(no_connect
 		(at 351.79 314.96)
@@ -7759,6 +7751,16 @@
 			(type default)
 		)
 		(uuid "1cc9da40-3adb-4adc-b48f-c6db76d45540")
+	)
+	(wire
+		(pts
+			(xy 238.76 190.5) (xy 270.51 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d615725-195e-434d-a346-130c7e2e8a42")
 	)
 	(wire
 		(pts
@@ -9192,6 +9194,16 @@
 	)
 	(wire
 		(pts
+			(xy 238.76 193.04) (xy 270.51 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fdc6d2cf-dbbd-4c79-aa49-95ba4f9c3fbb")
+	)
+	(wire
+		(pts
 			(xy 238.76 83.82) (xy 270.51 83.82)
 		)
 		(stroke
@@ -9252,7 +9264,7 @@
 		)
 		(uuid "14f81501-157d-4627-a826-818ab6126b1b")
 	)
-	(text_box "USB2 P3/P5 used for USB2.0 \n"
+	(text_box "USB2 P2/P3/P4 used for USB2.0 \n"
 		(exclude_from_sim no)
 		(at 175.26 184.15 0)
 		(size 39.37 10.16)
@@ -9800,6 +9812,18 @@
 		)
 		(uuid "4e7a2a33-f032-4645-96b4-d5778350b5a5")
 	)
+	(hierarchical_label "USB_2_P4-"
+		(shape bidirectional)
+		(at 238.76 193.04 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5552eef7-31f7-42e0-865e-5485037d81f3")
+	)
 	(hierarchical_label "HSIO_0_TX+"
 		(shape output)
 		(at 238.76 78.74 180)
@@ -9943,6 +9967,18 @@
 			(justify left)
 		)
 		(uuid "8c2a1342-27ca-4164-9955-824b65b29e12")
+	)
+	(hierarchical_label "USB_2_P4+"
+		(shape bidirectional)
+		(at 238.76 190.5 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "938db681-e17a-4978-813b-007665e9af10")
 	)
 	(hierarchical_label "HSIO_1_RX+"
 		(shape input)
