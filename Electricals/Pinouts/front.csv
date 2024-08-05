@@ -91,9 +91,9 @@ KEY,KEY,KEY,KEY,
 177,TCP0_DDC_SDA,I/O,TCP0 HDMI display data channel data,SoC GPP_E19
 179,TCP0_DDC_SCL,O,TCP0 HDMI display data channel clock,SoC GPP_E18
 181,GND,,,
-183,DDIB_HPD,I,DDIB hot plug detect,GPP_A18
-185,TCP1_HPD,I,TCP1 hot plug detect,GPP_A20
-187,TCP0_HPD,I,TCP0 hot plug detect,GPP_A19
+183,DDIB_HPD,I,DDIB hot plug detect,SoC GPP_A18
+185,TCP1_HPD,I,TCP1 hot plug detect,SoC GPP_A20
+187,TCP0_HPD,I,TCP0 hot plug detect,SoC GPP_A19
 189,GND,,,
 191,DDIB_AUX-,I/O,DDIB DP Auxiliary channel,
 193,DDIB_AUX+,I/O,DDIB DP Auxiliary channel,
