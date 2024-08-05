@@ -1,132 +1,132 @@
-Number,Name,Type,Description
-2,FAN1_PWM,O,CPU fan PWM output
-4,FAN1_TAC,I,CPU fan tachometer input
-6,TAN2_PWM,O,System fan PWM out
-8,FAN2_TAC,I,System fan tachometer input
-10,SIO_UART_TX,O,SuperIO UART transmitter
-12,SIO_UART_RX,I,SuperIO UART receiver
-14,GND,,
-16,HSIO0_RX+,I,Differential signal input
-18,HSIO0_RX-,I,Differential signal input
-20,GND,,
-22,HSIO1_RX+,I,Differential signal input
-24,HSIO1_RX-,I,Differential signal input
-26,GND,,
-28,HSIO2_RX+,I,Differential signal input
-30,HSIO2_RX-,I,Differential signal input
-32,GND,,
-34,HSIO3_RX+,I,Differential signal input
-36,HSIO3_RX-,I,Differential signal input
-38,GND,,
-40,HSIO8_RX+,I,Differential signal input
-42,HSIO8_RX-,I,Differential signal input
-44,GND,,
-46,HSIO9_RX+,I,Differential signal input
-48,HSIO9_RX-,I,Differential signal input
-50,GND,,
-52,HSIO10_RX+,I,Differential signal input
-54,HSIO10_RX-,I,Differential signal input
-56,GND,,
-58,HSIO11_RX+,I,Differential signal input
-60,HSIO11_RX-,I,Differential signal input
-62,GND,,
-64,HSIO6_RX+,I,Differential signal input
-66,HSIO6_RX-,I,Differential signal input
-68,GND,,
-70,USB2_P4,I/O,USB 2.0 differential signal
-72,USB2_N4,I/O,USB 2.0 differential signal
-74,GND,,
-76,USB2_P7,I/O,USB 2.0 differential signal
-78,USB2_N7,I/O,USB 2.0 differential signal
-80,GND,,
-82,USB2_P8,I/O,USB 2.0 differential signal
-84,USB2_N8,I/O,USB 2.0 differential signal
-86,GND,,
-88,REFCLK3+,O,PCIe reference clock
-90,REFCLK3-,O,PCIe reference clock
-92,GND,,
-94,REFCLK4+,O,PCIe reference clock
-96,REFCLK4-,O,PCIe reference clock
-98,GND,,
-100,PCIECLK_REQ3#,I,REFCLK3 clock request function
-102,PCIECLK_REQ4#,I,REFCLK4 clock request function
-104,SMB_ALERT#,I,SMBus alert interrupt
-106,SMB_CLK,O,SMBus clock
-108,SMB_DATA,I/O,SMBus data
-110,GND,,
-112,USB2_P6,I/O,USB 2.0 differential signal
-114,USB2_N6,I/O,USB 2.0 differential signal
-116,GND,,
-118,GPP_F16,I/O,"GPIO, functions defined by BIOS"
-120,GPP_F15,I/O,"GPIO, functions defined by BIOS"
-122,GPP_F14,I/O,"GPIO, functions defined by BIOS"
-124,GPP_F13,I/O,"GPIO, functions defined by BIOS"
-126,GPP_F12,I/O,"GPIO, functions defined by BIOS"
-128,GPP_D0,I/O,"GPIO, functions defined by BIOS"
-130,GPP_D1,I/O,"GPIO, functions defined by BIOS"
-132,GPP_D2,I/O,"GPIO, functions defined by BIOS"
-134,GPP_D3,I/O,"GPIO, functions defined by BIOS"
-136,GND,,
-138,SOC_UART2_TXD,O,SoC UART2 transmitter 
-140,SOC_UART2_RXD,I,SoC UART2 receiver  
-142,I2C5_SCL,O,I2C5 clock
-144,I2C5_SDA,I/O,I2C5 data
-KEY,KEY,KEY,KEY
-146,I2C4_SCL,O,I2C4 clock
-148,I2C4_SDA,I/O,I2C4 data
-150,I2C3_SCL,O,I2C3 clock
-152,I2C3_SDA,I/O,I2C3 data
-154,I2C2_SCL,O,I2C2 clock
-156,I2C2_SDA,I/O,I2C2 data
-158,GND,,
-160,I2S_MCLK,O,I2S main clock
-162,I2S_SCLK,O,I2S bit clock
-164,I2S_SFRM,O,I2S word clock
-166,I2S_TXD,O,I2S serial data transmitter
-168,I2S_RXD,I,I2S serial data receiver
-170,GND,,
-172,HDA_RST,O,HD Audio reset
-174,HDA_BCLK,O,HD Audio bit clock
-176,HDA_SYNC,O,HD Audio sync
-178,HDA_SDOUT,O,HD Audio serial data out
-180,HDA_SDIN,I,HD Audio serial data in
-182,GND,,
-184,CSI_D_CK+,I,MIPI CSI-2 Port D Clock
-186,CSI_D_CK-,I,MIPI CSI-2 Port D Clock
-188,GND,,
-190,CSI_D_D1+,I,MIPI CSI-2 Port D Data Lane 1
-192,CSI_D_D1-,I,MIPI CSI-2 Port D Data Lane 1
-194,GND,,
-196,CSI_D_D0+,I,MIPI CSI-2 Port D Data Lane 0
-198,CSI_D_D0-,I,MIPI CSI-2 Port D Data Lane 0
-200,GND,,
-202,CSI_C_CK+,I,MIPI CSI-2 Port C Clock
-204,CSI_C_CK-,I,MIPI CSI-2 Port C Clock
-206,GND,,
-208,CSI_C_D1+,I,MIPI CSI-2 Port C Data Lane 1
-210,CSI_C_D1-,I,MIPI CSI-2 Port C Data Lane 1
-212,GND,,
-214,CSI_C_D0+,I,MIPI CSI-2 Port C Data Lane 0
-216,CSI_C_D0-,I,MIPI CSI-2 Port C Data Lane 0
-218,GND,,
-220,TCP1_TXP0,O,TCP1 DP Lane 0/HDMI TMDS Data2
-222,TCP1_TXN0,O,TCP1 DP Lane 0/HDMI TMDS Data2
-224,GND,,
-226,TCP1_TXRXP0,O,TCP1 DP Lane 1/HDMI TMDS Data1
-228,TCP1_TXRXN0,O,TCP1 DP Lane 1/HDMI TMDS Data1
-230,GND,,
-232,TCP1_TXP1,O,TCP1 DP Lane 2/HDMI TMDS Data0
-234,TCP1_TXN1,O,TCP1 DP Lane 2/HDMI TMDS Data0
-236,GND,,
-238,TCP1_TXRXP1,O,TCP1 DP Lane 3/HDMI TMDS Clock
-240,TCP1_TXRXN1,O,TCP1 DP Lane 3/HDMI TMDS Clock
-242,GND,,
-244,TCP1_AUX_P,I/O,TCP1 DP Auxiliary channel
-246,TCP1_AUX_N,I/O,TCP1 DP Auxiliary channel
-248,GND,,
-250,VDC,,Main power input 9~20V
-252,VDC,,Main power input 9~20V
-254,VDC,,Main power input 9~20V
-256,VDC,,Main power input 9~20V
-258,VDC,,Main power input 9~20V
-260,VDC,,Main power input 9~20V
+Number,Name,Type,Description,Note
+2,FAN1_PWM,O,CPU fan PWM output,SIO GP51
+4,FAN1_TAC,I,CPU fan tachometer input,SIO GP52
+6,TAN2_PWM,O,System fan PWM out,SIO GP36
+8,FAN2_TAC,I,System fan tachometer input,SIO GP37
+10,SIO_UART_TX,O,SuperIO UART transmitter,SIO JP3
+12,SIO_UART_RX,I,SuperIO UART receiver,SIO GP41
+14,GND,,,
+16,HSIO0_RX+,I,Differential signal input,
+18,HSIO0_RX-,I,Differential signal input,
+20,GND,,,
+22,HSIO1_RX+,I,Differential signal input,
+24,HSIO1_RX-,I,Differential signal input,
+26,GND,,,
+28,HSIO2_RX+,I,Differential signal input,
+30,HSIO2_RX-,I,Differential signal input,
+32,GND,,,
+34,HSIO3_RX+,I,Differential signal input,
+36,HSIO3_RX-,I,Differential signal input,
+38,GND,,,
+40,HSIO8_RX+,I,Differential signal input,
+42,HSIO8_RX-,I,Differential signal input,
+44,GND,,,
+46,HSIO9_RX+,I,Differential signal input,
+48,HSIO9_RX-,I,Differential signal input,
+50,GND,,,
+52,HSIO10_RX+,I,Differential signal input,
+54,HSIO10_RX-,I,Differential signal input,
+56,GND,,,
+58,HSIO11_RX+,I,Differential signal input,
+60,HSIO11_RX-,I,Differential signal input,
+62,GND,,,
+64,HSIO6_RX+,I,Differential signal input,
+66,HSIO6_RX-,I,Differential signal input,
+68,GND,,,
+70,USB2_P4,I/O,USB 2.0 differential signal,
+72,USB2_N4,I/O,USB 2.0 differential signal,
+74,GND,,,
+76,USB2_P7,I/O,USB 2.0 differential signal,
+78,USB2_N7,I/O,USB 2.0 differential signal,
+80,GND,,,
+82,USB2_P8,I/O,USB 2.0 differential signal,
+84,USB2_N8,I/O,USB 2.0 differential signal,
+86,GND,,,
+88,REFCLK3+,O,PCIe reference clock,
+90,REFCLK3-,O,PCIe reference clock,
+92,GND,,,
+94,REFCLK4+,O,PCIe reference clock,
+96,REFCLK4-,O,PCIe reference clock,
+98,GND,,,
+100,PCIECLK_REQ3#,I,REFCLK3 clock request function,SoC GPP_D8
+102,PCIECLK_REQ4#,I,REFCLK4 clock request function,SoC GPP_H19
+104,SMB_ALERT#,I,SMBus alert interrupt,SoC GPP_C2
+106,SMB_CLK,O,SMBus clock,SoC GPP_C0
+108,SMB_DATA,I/O,SMBus data,SoC GPP_C1
+110,GND,,,
+112,USB2_P6,I/O,USB 2.0 differential signal,
+114,USB2_N6,I/O,USB 2.0 differential signal,
+116,GND,,,
+118,GPP_F16,I/O,"GPIO, functions defined by BIOS",
+120,GPP_F15,I/O,"GPIO, functions defined by BIOS",
+122,GPP_F14,I/O,"GPIO, functions defined by BIOS",
+124,GPP_F13,I/O,"GPIO, functions defined by BIOS",
+126,GPP_F12,I/O,"GPIO, functions defined by BIOS",
+128,GPP_D0,I/O,"GPIO, functions defined by BIOS",
+130,GPP_D1,I/O,"GPIO, functions defined by BIOS",
+132,GPP_D2,I/O,"GPIO, functions defined by BIOS",
+134,GPP_D3,I/O,"GPIO, functions defined by BIOS",
+136,GND,,,
+138,SOC_UART2_TXD,O,SoC UART2 transmitter ,SoC GPP_F2
+140,SOC_UART2_RXD,I,SoC UART2 receiver  ,SoC GPP_F1
+142,I2C5_SCL,O,I2C5 clock,SoC GPP_B17
+144,I2C5_SDA,I/O,I2C5 data,SoC GPP_B16
+KEY,KEY,KEY,KEY,
+146,I2C4_SCL,O,I2C4 clock,SoC GPP_H9
+148,I2C4_SDA,I/O,I2C4 data,SoC GPP_H8
+150,I2C3_SCL,O,I2C3 clock,SoC GPP_B8
+152,I2C3_SDA,I/O,I2C3 data,SoC GPP_B7
+154,I2C2_SCL,O,I2C2 clock,SoC GPP_B6
+156,I2C2_SDA,I/O,I2C2 data,SoC GPP_B5
+158,GND,,,
+160,I2S_MCLK,O,I2S main clock,SoC GPP_D19
+162,I2S_SCLK,O,I2S bit clock,SoC GPP_S0
+164,I2S_SFRM,O,I2S word clock,SoC GPP_S1
+166,I2S_TXD,O,I2S serial data transmitter,SoC GPP_S2
+168,I2S_RXD,I,I2S serial data receiver,SoC GPP_S3
+170,GND,,,
+172,HDA_RST,O,HD Audio reset,SoC GPP_R4
+174,HDA_BCLK,O,HD Audio bit clock,SoC GPP_R0
+176,HDA_SYNC,O,HD Audio sync,SoC GPP_R1
+178,HDA_SDOUT,O,HD Audio serial data out,SoC GPP_R2
+180,HDA_SDIN,I,HD Audio serial data in,SoC GPP_R3
+182,GND,,,
+184,CSI_D_CK+,I,MIPI CSI-2 Port D Clock,
+186,CSI_D_CK-,I,MIPI CSI-2 Port D Clock,
+188,GND,,,
+190,CSI_D_D1+,I,MIPI CSI-2 Port D Data Lane 1,
+192,CSI_D_D1-,I,MIPI CSI-2 Port D Data Lane 1,
+194,GND,,,
+196,CSI_D_D0+,I,MIPI CSI-2 Port D Data Lane 0,
+198,CSI_D_D0-,I,MIPI CSI-2 Port D Data Lane 0,
+200,GND,,,
+202,CSI_C_CK+,I,MIPI CSI-2 Port C Clock,
+204,CSI_C_CK-,I,MIPI CSI-2 Port C Clock,
+206,GND,,,
+208,CSI_C_D1+,I,MIPI CSI-2 Port C Data Lane 1,
+210,CSI_C_D1-,I,MIPI CSI-2 Port C Data Lane 1,
+212,GND,,,
+214,CSI_C_D0+,I,MIPI CSI-2 Port C Data Lane 0,
+216,CSI_C_D0-,I,MIPI CSI-2 Port C Data Lane 0,
+218,GND,,,
+220,TCP1_TXP0,O,TCP1 DP Lane 0/HDMI TMDS Data2,
+222,TCP1_TXN0,O,TCP1 DP Lane 0/HDMI TMDS Data2,
+224,GND,,,
+226,TCP1_TXRXP0,O,TCP1 DP Lane 1/HDMI TMDS Data1,
+228,TCP1_TXRXN0,O,TCP1 DP Lane 1/HDMI TMDS Data1,
+230,GND,,,
+232,TCP1_TXP1,O,TCP1 DP Lane 2/HDMI TMDS Data0,
+234,TCP1_TXN1,O,TCP1 DP Lane 2/HDMI TMDS Data0,
+236,GND,,,
+238,TCP1_TXRXP1,O,TCP1 DP Lane 3/HDMI TMDS Clock,
+240,TCP1_TXRXN1,O,TCP1 DP Lane 3/HDMI TMDS Clock,
+242,GND,,,
+244,TCP1_AUX_P,I/O,TCP1 DP Auxiliary channel,
+246,TCP1_AUX_N,I/O,TCP1 DP Auxiliary channel,
+248,GND,,,
+250,VDC,,Main power input 9~20V,
+252,VDC,,Main power input 9~20V,
+254,VDC,,Main power input 9~20V,
+256,VDC,,Main power input 9~20V,
+258,VDC,,Main power input 9~20V,
+260,VDC,,Main power input 9~20V,

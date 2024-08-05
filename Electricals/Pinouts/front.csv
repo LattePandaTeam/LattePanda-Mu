@@ -1,132 +1,132 @@
-Number,Name,Type,Description
-1,PWRBTN#,I,"Power button, with integrated pull-up"
-3,RSTBTN#,I,"Reset button, with integrated pull-up"
-5,SLS_S0,O,"Power statue, output high when S0(Working)"
-7,SLS_S3,O,"Power statue, output high when S0(Working), S3(Sleep)"
-9,TSENSE,I,NTC temperature sensor input
-11,GND,,
-13,HSIO0_TX+,O,"Differential signal output, coupling capacitor required"
-15,HSIO0_TX-,O,"Differential signal output, coupling capacitor required"
-17,GND,,
-19,HSIO1_TX+,O,"Differential signal output, coupling capacitor required"
-21,HSIO1_TX-,O,"Differential signal output, coupling capacitor required"
-23,GND,,
-25,HSIO2_TX+,O,"Differential signal output, coupling capacitor required"
-27,HSIO2_TX-,O,"Differential signal output, coupling capacitor required"
-29,GND,,
-31,HSIO3_TX+,O,"Differential signal output, coupling capacitor required"
-33,HSIO3_TX-,O,"Differential signal output, coupling capacitor required"
-35,GND,,
-37,HSIO8_TX+,O,"Differential signal output, coupling capacitor required"
-39,HSIO8_TX-,O,"Differential signal output, coupling capacitor required"
-41,GND,,
-43,HSIO9_TX+,O,"Differential signal output, coupling capacitor required"
-45,HSIO9_TX-,O,"Differential signal output, coupling capacitor required"
-47,GND,,
-49,HSIO10_TX+,O,"Differential signal output, coupling capacitor required"
-51,HSIO10_TX-,O,"Differential signal output, coupling capacitor required"
-53,GND,,
-55,HSIO11_TX+,O,"Differential signal output, coupling capacitor required"
-57,HSIO11_TX-,O,"Differential signal output, coupling capacitor required"
-59,GND,,
-61,HSIO6_TX+,O,"Differential signal output, coupling capacitor required"
-63,HSIO6_TX-,O,"Differential signal output, coupling capacitor required"
-65,GND,,
-67,USB2_P1-,I/O,USB 2.0 differential signal
-69,USB2_P1+,I/O,USB 2.0 differential signal
-71,GND,,
-73,USB2_P2-,I/O,USB 2.0 differential signal
-75,USB2_P2+,I/O,USB 2.0 differential signal
-77,GND,,
-79,USB2_P3-,I/O,USB 2.0 differential signal
-81,USB2_P3+,I/O,USB 2.0 differential signal
-83,GND,,
-85,REFCLK0+,O,PCIe reference clock
-87,REFCLK0-,O,PCIe reference clock
-89,GND,,
-91,REFCLK1+,O,PCIe reference clock
-93,REFCLK1-,O,PCIe reference clock
-95,GND,,
-97,REFCLK2+,O,PCIe reference clock
-99,REFCLK2-,O,PCIe reference clock
-101,GND,,
-103,WAKE#,I,Wake Mu when pull-down
-105,PLTRST#,O,Platform reset signal
-107,GND,,
-109,USB2_P5-,I/O,USB 2.0 differential signal
-111,USB2_P5+,I/O,USB 2.0 differential signal
-113,GND,,
-115,VBAT,,RTC battery input
-117,PROCHOT#,I,Overheat protect when pull-down
-119,GPP_E0,I/O,"GPIO, functions defined by BIOS"
-121,GPP_A12,I/O,"GPIO, functions defined by BIOS"
-123,GPP_B14,I/O,"GPIO, functions defined by BIOS"
-125,GPP_B11,I/O,"GPIO, functions defined by BIOS"
-127,TPM_IRQ,I,discrete TPM interrupt
-129,USB_OC#,I,USB over current signal
-131,SUSCLK,O,32.768kHz clock output
-133,BIOS_SEL#,I,BIOS select: pull-up: integrated ROM; pull-down: carrier ROM
-135,GND,,
-137,UART0_RXD,I,SoC UART0 receiver  
-139,UART0_TXD,O,SoC UART0 transmitter 
-141,UART1_RXD,I,SoC UART1 receiver  
-143,UART1_TXD,O,SoC UART1 transmitter 
-KEY,KEY,KEY,KEY
-145,SML1_DATA,I/O,SMLink1 data
-147,SML1_CLK,O,SMLink1 clock
-149,SML1_ALERT#,I,SMLink1 alert
-151,GND,,
-153,SPI_IO3,I/O,"SPI interface, BIOS and dTPM specific"
-155,SPI_CLK,O,"SPI interface, BIOS and dTPM specific"
-157,SPI_CS2#,O,"SPI chip select, dTPM specific"
-159,SPI_MOSI/SPI_IO0,I/O,"SPI interface, BIOS and dTPM specific"
-161,SPI_IO2,I/O,"SPI interface, BIOS and dTPM specific"
-163,SPI_MISO/SPI_IO1,I/O,"SPI interface, BIOS and dTPM specific"
-165,SPI_CS#,O,"SPI chip select, BIOS ROM specific"
-167,GND,,
-169,DDIB_DDC_SDA,I/O,DDIB HDMI display data channel data
-171,DDIB_DDC_SCL,O,DDIB HDMI display data channel clock
-173,TCP1_DDC_SDA,I/O,TCP1 HDMI display data channel data
-175,TCP1_DDC_SCL,O,TCP1 HDMI display data channel clock
-177,TCP0_DDC_SDA,I/O,TCP0 HDMI display data channel data
-179,TCP0_DDC_SCL,O,TCP0 HDMI display data channel clock
-181,GND,,
-183,DDIB_HPD,I,DDIB hot plug detect
-185,TCP1_HPD,I,TCP1 hot plug detect
-187,TCP0_HPD,I,TCP0 hot plug detect
-189,GND,,
-191,DDIB_AUX-,I/O,DDIB DP Auxiliary channel
-193,DDIB_AUX+,I/O,DDIB DP Auxiliary channel
-195,GND,,
-197,DDIB_TX3-,O,DDIB DP Lane 3/HDMI TMDS Clock
-199,DDIB_TX3+,O,DDIB DP Lane 3/HDMI TMDS Clock
-201,GND,,
-203,DDIB_TX2-,O,DDIB DP Lane 2/HDMI TMDS Data0
-205,DDIB_TX2+,O,DDIB DP Lane 2/HDMI TMDS Data0
-207,GND,,
-209,DDIB_TX1-,O,DDIB DP Lane 1/HDMI TMDS Data1
-211,DDIB_TX1+,O,DDIB DP Lane 1/HDMI TMDS Data1
-213,GND,,
-215,DDIB_TX0-,O,DDIB DP Lane 0/HDMI TMDS Data2
-217,DDIB_TX0+,O,DDIB DP Lane 0/HDMI TMDS Data2
-219,GND,,
-221,TCP0_AUX-,I/O,TCP0 DP Auxiliary channel
-223,TCP0_AUX+,I/O,TCP0 DP Auxiliary channel
-225,GND,,
-227,TCP0_TXRX1-,O,TCP0 DP Lane 3/HDMI TMDS Clock
-229,TCP0_TXRX1+,O,TCP0 DP Lane 3/HDMI TMDS Clock
-231,GND,,
-233,TCP0_TX1-,O,TCP0 DP Lane 2/HDMI TMDS Data0
-235,TCP0_TX1+,O,TCP0 DP Lane 2/HDMI TMDS Data0
-237,GND,,
-239,TCP0_TXRX0-,O,TCP0 DP Lane 1/HDMI TMDS Data1
-241,TCP0_TXRX0+,O,TCP0 DP Lane 1/HDMI TMDS Data1
-243,GND,,
-245,TCP0_TX0-,O,TCP0 DP Lane 0/HDMI TMDS Data2
-247,TCP0_TX0+,O,TCP0 DP Lane 0/HDMI TMDS Data2
-249,GND,,
-251,VIN,,Main power input 9~20V
-253,VIN,,Main power input 9~20V
-255,VIN,,Main power input 9~20V
-257,VIN,,Main power input 9~20V
-259,VIN,,Main power input 9~20V
+Number,Name,Type,Description,Note
+1,PWRBTN#,I,"Power button, with integrated pull-up",SIO PANSWH#
+3,RSTBTN#,I,"Reset button, with integrated pull-up",SoC SYS_RESET#
+5,SLS_S0,O,"Power statue, output high when S0(Working)",SIO PSON#
+7,SLS_S3,O,"Power statue, output high when S0(Working), S3(Sleep)",SoC GPD5
+9,TSENSE,I,NTC temperature sensor input,SIO TMPIN2
+11,GND,,,
+13,HSIO0_TX+,O,"Differential signal output, coupling capacitor required",
+15,HSIO0_TX-,O,"Differential signal output, coupling capacitor required",
+17,GND,,,
+19,HSIO1_TX+,O,"Differential signal output, coupling capacitor required",
+21,HSIO1_TX-,O,"Differential signal output, coupling capacitor required",
+23,GND,,,
+25,HSIO2_TX+,O,"Differential signal output, coupling capacitor required",
+27,HSIO2_TX-,O,"Differential signal output, coupling capacitor required",
+29,GND,,,
+31,HSIO3_TX+,O,"Differential signal output, coupling capacitor required",
+33,HSIO3_TX-,O,"Differential signal output, coupling capacitor required",
+35,GND,,,
+37,HSIO8_TX+,O,"Differential signal output, coupling capacitor required",
+39,HSIO8_TX-,O,"Differential signal output, coupling capacitor required",
+41,GND,,,
+43,HSIO9_TX+,O,"Differential signal output, coupling capacitor required",
+45,HSIO9_TX-,O,"Differential signal output, coupling capacitor required",
+47,GND,,,
+49,HSIO10_TX+,O,"Differential signal output, coupling capacitor required",
+51,HSIO10_TX-,O,"Differential signal output, coupling capacitor required",
+53,GND,,,
+55,HSIO11_TX+,O,"Differential signal output, coupling capacitor required",
+57,HSIO11_TX-,O,"Differential signal output, coupling capacitor required",
+59,GND,,,
+61,HSIO6_TX+,O,"Differential signal output, coupling capacitor required",
+63,HSIO6_TX-,O,"Differential signal output, coupling capacitor required",
+65,GND,,,
+67,USB2_P1-,I/O,USB 2.0 differential signal,
+69,USB2_P1+,I/O,USB 2.0 differential signal,
+71,GND,,,
+73,USB2_P2-,I/O,USB 2.0 differential signal,
+75,USB2_P2+,I/O,USB 2.0 differential signal,
+77,GND,,,
+79,USB2_P3-,I/O,USB 2.0 differential signal,
+81,USB2_P3+,I/O,USB 2.0 differential signal,
+83,GND,,,
+85,REFCLK0+,O,PCIe reference clock,
+87,REFCLK0-,O,PCIe reference clock,
+89,GND,,,
+91,REFCLK1+,O,PCIe reference clock,
+93,REFCLK1-,O,PCIe reference clock,
+95,GND,,,
+97,REFCLK2+,O,PCIe reference clock,
+99,REFCLK2-,O,PCIe reference clock,
+101,GND,,,
+103,WAKE#,I,Wake Mu when pull-down,SoC WAKE#
+105,PLTRST#,O,Platform reset signal,SoC GPP_B13
+107,GND,,,
+109,USB2_P5-,I/O,USB 2.0 differential signal,
+111,USB2_P5+,I/O,USB 2.0 differential signal,
+113,GND,,,
+115,VBAT,,RTC battery input,SoC VCCRTC
+117,PROCHOT#,I,Overheat protect when pull-down,SoC PROCHOT#
+119,GPP_E0,I/O,"GPIO, functions defined by BIOS",
+121,GPP_A12,I/O,"GPIO, functions defined by BIOS",
+123,GPP_B14,I/O,"GPIO, functions defined by BIOS",
+125,GPP_B11,I/O,"GPIO, functions defined by BIOS",
+127,TPM_IRQ,I,discrete TPM interrupt,SoC GPP_B4
+129,USB_OC#,I,USB over current signal,SoC GPP_A16
+131,SUSCLK,O,32.768kHz clock output,SoC GPD8
+133,BIOS_SEL#,I,BIOS select: pull-up: integrated ROM; pull-down: carrier ROM,
+135,GND,,,
+137,UART0_RXD,I,SoC UART0 receiver  ,SoC GPP_H10
+139,UART0_TXD,O,SoC UART0 transmitter ,SoC GPP_H11
+141,UART1_RXD,I,SoC UART1 receiver  ,SoC GPP_D17
+143,UART1_TXD,O,SoC UART1 transmitter ,SoC GPP_D18
+KEY,KEY,KEY,KEY,
+145,SML1_DATA,I/O,SMLink1 data,SoC GPP_C7
+147,SML1_CLK,O,SMLink1 clock,SoC GPP_C6
+149,SML1_ALERT#,I,SMLink1 alert,SoC GPP_B23
+151,GND,,,
+153,SPI_IO3,I/O,"SPI interface, BIOS and dTPM specific",
+155,SPI_CLK,O,"SPI interface, BIOS and dTPM specific",
+157,SPI_CS2#,O,"SPI chip select, dTPM specific",
+159,SPI_MOSI/SPI_IO0,I/O,"SPI interface, BIOS and dTPM specific",
+161,SPI_IO2,I/O,"SPI interface, BIOS and dTPM specific",
+163,SPI_MISO/SPI_IO1,I/O,"SPI interface, BIOS and dTPM specific",
+165,SPI_CS#,O,"SPI chip select, BIOS ROM specific",
+167,GND,,,
+169,DDIB_DDC_SDA,I/O,DDIB HDMI display data channel data,SoC GPP_H17
+171,DDIB_DDC_SCL,O,DDIB HDMI display data channel clock,SoC GPP_H15
+173,TCP1_DDC_SDA,I/O,TCP1 HDMI display data channel data,SoC GPP_E21
+175,TCP1_DDC_SCL,O,TCP1 HDMI display data channel clock,SoC GPP_E20
+177,TCP0_DDC_SDA,I/O,TCP0 HDMI display data channel data,SoC GPP_E19
+179,TCP0_DDC_SCL,O,TCP0 HDMI display data channel clock,SoC GPP_E18
+181,GND,,,
+183,DDIB_HPD,I,DDIB hot plug detect,GPP_A18
+185,TCP1_HPD,I,TCP1 hot plug detect,GPP_A20
+187,TCP0_HPD,I,TCP0 hot plug detect,GPP_A19
+189,GND,,,
+191,DDIB_AUX-,I/O,DDIB DP Auxiliary channel,
+193,DDIB_AUX+,I/O,DDIB DP Auxiliary channel,
+195,GND,,,
+197,DDIB_TX3-,O,DDIB DP Lane 3/HDMI TMDS Clock,
+199,DDIB_TX3+,O,DDIB DP Lane 3/HDMI TMDS Clock,
+201,GND,,,
+203,DDIB_TX2-,O,DDIB DP Lane 2/HDMI TMDS Data0,
+205,DDIB_TX2+,O,DDIB DP Lane 2/HDMI TMDS Data0,
+207,GND,,,
+209,DDIB_TX1-,O,DDIB DP Lane 1/HDMI TMDS Data1,
+211,DDIB_TX1+,O,DDIB DP Lane 1/HDMI TMDS Data1,
+213,GND,,,
+215,DDIB_TX0-,O,DDIB DP Lane 0/HDMI TMDS Data2,
+217,DDIB_TX0+,O,DDIB DP Lane 0/HDMI TMDS Data2,
+219,GND,,,
+221,TCP0_AUX-,I/O,TCP0 DP Auxiliary channel,
+223,TCP0_AUX+,I/O,TCP0 DP Auxiliary channel,
+225,GND,,,
+227,TCP0_TXRX1-,O,TCP0 DP Lane 3/HDMI TMDS Clock,
+229,TCP0_TXRX1+,O,TCP0 DP Lane 3/HDMI TMDS Clock,
+231,GND,,,
+233,TCP0_TX1-,O,TCP0 DP Lane 2/HDMI TMDS Data0,
+235,TCP0_TX1+,O,TCP0 DP Lane 2/HDMI TMDS Data0,
+237,GND,,,
+239,TCP0_TXRX0-,O,TCP0 DP Lane 1/HDMI TMDS Data1,
+241,TCP0_TXRX0+,O,TCP0 DP Lane 1/HDMI TMDS Data1,
+243,GND,,,
+245,TCP0_TX0-,O,TCP0 DP Lane 0/HDMI TMDS Data2,
+247,TCP0_TX0+,O,TCP0 DP Lane 0/HDMI TMDS Data2,
+249,GND,,,
+251,VIN,,Main power input 9~20V,
+253,VIN,,Main power input 9~20V,
+255,VIN,,Main power input 9~20V,
+257,VIN,,Main power input 9~20V,
+259,VIN,,Main power input 9~20V,
