@@ -6,6 +6,10 @@ The STEP format models are large in size, hence they are compressed using 7-Zip.
 
 ## Files
 
+- [**LattePanda_Mu_Dimension_Drawing.pdf**](./LattePanda_Mu_Dimension_Drawing.pdf): LattePanda Mu Dimensional Drawing, PDF format
+
+- [**LattePanda_Mu_Dimension_Drawing.dxf**](./LattePanda_Mu_Dimension_Drawing.dxf): LattePanda Mu Dimensional Drawing, DXF format
+
 - [**LattePanda_Mu.step.7z**](./LattePanda_Mu.step.7z): Contains only the basic model of LattePanda Mu.
 
 - [**LattePanda_Mu_H8.0_Horizontal.step.7z**](./LattePanda_Mu_H8.0_Horizontal.step.7z): Includes the model of LattePanda Mu and the H8.0 horizontal connector, which is the standard mounting method for LattePanda Mu, and can be used directly in PCB design as an enclosure model.
