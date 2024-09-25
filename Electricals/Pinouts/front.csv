@@ -1,8 +1,8 @@
 Number,Name,Type,Description,Note
 1,PWRBTN#,I,"Power button, with integrated pull-up",SIO PANSWH#
 3,RSTBTN#,I,"Reset button, with integrated pull-up",SoC SYS_RESET#
-5,SLS_S0,O,"Power statue, output high when S0(Working)",SIO PSON#
-7,SLS_S3,O,"Power statue, output high when S0(Working), S3(Sleep)",SoC GPD5
+5,SLS_S0,O,"Power status, output high when S0(Working)",SIO PSON#
+7,SLS_S3,O,"Power status, output high when S0(Working), S3(Sleep)",SoC GPD5
 9,TSENSE,I,NTC temperature sensor input,SIO TMPIN2
 11,GND,,,
 13,HSIO0_TX+,O,"Differential signal output, coupling capacitor required",
