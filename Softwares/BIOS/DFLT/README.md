@@ -1,3 +1,9 @@
+**LP-BS-S70NC1R200-SR-A**
+Suitable for LattePanda Mu N100 8GB RAM
+
+**LP-BS-S70NC1R200-DR-B**
+Suitable for LattePanda Mu N100 16GB RAM / LattePanda Mu N305 16GB RAM
+
 # DEFT Branch
 
 Default factory BIOS interface configuration for LattePanda Mu.
