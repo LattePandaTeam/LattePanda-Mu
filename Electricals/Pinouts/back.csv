@@ -1,7 +1,7 @@
 Number,Name,Type,Description,Note
 2,FAN1_PWM,O,CPU fan PWM output,SIO GP51
 4,FAN1_TAC,I,CPU fan tachometer input,SIO GP52
-6,TAN2_PWM,O,System fan PWM out,SIO GP36
+6,FAN2_PWM,O,System fan PWM out,SIO GP36
 8,FAN2_TAC,I,System fan tachometer input,SIO GP37
 10,SIO_UART_TX,O,SuperIO UART transmitter,SIO JP3
 12,SIO_UART_RX,I,SuperIO UART receiver,SIO GP41
