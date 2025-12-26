@@ -1,10 +1,68 @@
-**LP-BS-S70NC1R200-SR-A**
-Suitable for LattePanda Mu N100 8GB RAM
+💡**Note:** The LattePanda Mu compute module is available in 8GB and 16GB memory versions. It is essential to select the correct BIOS firmware as described below.
 
-**LP-BS-S70NC1R200-DR-B**
-Suitable for LattePanda Mu N100 16GB RAM / LattePanda Mu N305 16GB RAM
+### For LattePanda Mu N100 **8GB** RAM Model:
 
-# DEFT Branch
+- LP-BS-S70NC1R200-SR-B
+- S70NC1R200-8G-A
+
+### For LattePanda Mu N100 / N305 **16GB** RAM Model:
+
+- LP-BS-S70NC1R200-DR-B
+- S70NC1R200-16G-A
+
+---
+
+# BIOS Release Notes
+
+## [2025-12] Latest Release
+**Build Date:** 2025/12/19
+
+### 📂 BIOS Files
+| Variant | Compatible Model | Filename |
+| :--- | :--- | :--- |
+| **PCIe** | LattePanda Mu N100 **8GB** | `S70NC1R200-8G-A.bin` |
+| **PCIe** | LattePanda Mu N100 / N305 **16GB** | `S70NC1R200-16G-A.bin` |
+| **SATA** | LattePanda Mu N100 **8GB** | `S70NC1R200-8G-A-SATA.bin` |
+| **SATA** | LattePanda Mu N100 / N305 **16GB** | `S70NC1R200-16G-A-SATA.bin` |
+
+### 📝 Changelog
+1. Added SMBIOS information.
+2. Added information for eMMC, SATA, NVMe, etc. in the Main tab.
+3. Unlocked PCIe Clock configuration menu.
+4. Unlocked PCIe port ASPM configuration menu (Default: Disabled).
+5. Added toggle options for TP (Touch Panel) and eDP display.
+6. Added GPIO function support and configuration menu.
+7. Enabled SpeedStep(TM) and RC6; changed Package C State Limit to Auto.
+8. Added RTL8111H PXE boot support.
+9. Fixed the issue of duplicate UART numbering in the OS.
+10. Added Windows Recovery support (Requires customized OS).
+
+---
+
+## [2024-06/07] Initial Release
+**Build Date:** 2024/07/08 (PCIe) / 2024/07/05 (SATA)
+
+### 📂 BIOS Files
+- **PCIe**: `LP-BS-S70NC1R200-SR-B.bin`
+
+- **SATA**: `LP-BS-S70NC1R200-SR-B-SATA.bin`
+
+- **Compatible Models**: LattePanda Mu N100 **8GB**
+
+**Build Date:** 2024/06/19 (PCIe) / 2024/06/20 (SATA)
+
+### 📂 BIOS Files
+- **PCIe**: `LP-BS-S70NC1R200-DR-B.bin`
+- **SATA**: `LP-BS-S70NC1R200-DR-B-SATA.bin`
+- **Compatible Models**: LattePanda Mu N100 / N305 **16GB**
+
+
+### 📝 Changelog
+- Initial BIOS firmware release.
+
+---
+
+# DEFT Branch Introduction
 
 Default factory BIOS interface configuration for LattePanda Mu.
 
