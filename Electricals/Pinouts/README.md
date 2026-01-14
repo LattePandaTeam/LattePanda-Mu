@@ -1,6 +1,6 @@
 # Pinouts
 
-All pin definitions for LattePanda Mu
+All pin definitions for LattePanda Mu(N100/N305 Processor)
 
 ⚠️ Note:  
 Due to the large number of functionally multiplexing pins, you should check the [BIOS functionality documentation](../../Softwares/BIOS/README.md) before starting your design. Do not design directly from the pin definition documentation here.
@@ -114,12 +114,11 @@ Clamshell 22P 0.5mm FFC/FPC Connector
 
 Contacts on eSPI bus for SoC to communicate with SuperIO, can be used to connect diagnostic card (untested).
 
-## SODIMM
+## Edge Connector(DDR4 SODIMM)
 
-DDR4 SODIMM pin table is too long, so I put it in a separate csv file.
+The edge_connector of LattePanda Mu is designed for DDR4 260P SODIMM. But this pin table is too long, so I put it in a separate .xlsx file.
 
-- [Front Side](./front.csv)
-- [Back Side](./back.csv)
+- [LattePanda Mu Edge Connector Pinout](./LattePanda_Mu_Edge_Connector_Pinout.xlsx)
 
 ⚠️ Note:  
 Due to the large number of functionally multiplexing pins, you should check the [BIOS functionality documentation](../../Softwares/BIOS/README.md) before starting your design. Do not design directly from the pin definition documentation here.
