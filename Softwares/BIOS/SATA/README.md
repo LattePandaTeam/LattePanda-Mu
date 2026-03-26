@@ -4,27 +4,25 @@
 ### For LattePanda Mu N100 **8GB** RAM Model:
 
 - LP-BS-S70NC1R200-SR-B
-- S70NC1R200-8G-A
+- S70NC1R200-8G-A **(Latest)**
 
 ### For LattePanda Mu N100 / N305 **16GB** RAM Model:
 
 - LP-BS-S70NC1R200-DR-B
-- S70NC1R200-16G-A
+- S70NC1R200-16G-A **(Latest)**
 
 ---
 
 # BIOS Release Notes
 
 ## [2025-12] Latest Release
-**Build Date:** 2025/12/19
-
 ### 📂 BIOS Files
-| Variant | Compatible Model | Filename |
-| :--- | :--- | :--- |
-| **PCIe** | LattePanda Mu N100 **8GB** | `S70NC1R200-8G-A.bin` |
-| **PCIe** | LattePanda Mu N100 / N305 **16GB** | `S70NC1R200-16G-A.bin` |
-| **SATA** | LattePanda Mu N100 **8GB** | `S70NC1R200-8G-A-SATA.bin` |
-| **SATA** | LattePanda Mu N100 / N305 **16GB** | `S70NC1R200-16G-A-SATA.bin` |
+| Variant | Compatible Model | Filename | Build Date |
+| :--- | :--- | :--- | ---- |
+| **PCIe** | LattePanda Mu N100 **8GB** | `S70NC1R200-8G-A.bin` | 2025/12/19 |
+| **PCIe** | LattePanda Mu N100 / N305 **16GB** | `S70NC1R200-16G-A.bin` | 2025/12/19 |
+| **SATA** | LattePanda Mu N100 **8GB** | `S70NC1R200-8G-A-SATA.bin` | 2025/12/19 |
+| **SATA** | LattePanda Mu N100 / N305 **16GB** | `S70NC1R200-16G-A-SATA.bin` | 2025/12/19 |
 
 ### 📝 Changelog
 1. Added SMBIOS information.
@@ -41,21 +39,13 @@
 ---
 
 ## [2024-06/07] Initial Release
-**Build Date:** 2024/07/08 (PCIe) / 2024/07/05 (SATA)
-
 ### 📂 BIOS Files
-- **PCIe**: `LP-BS-S70NC1R200-SR-B.bin`
-
-- **SATA**: `LP-BS-S70NC1R200-SR-B-SATA.bin`
-
-- **Compatible Models**: LattePanda Mu N100 **8GB**
-
-**Build Date:** 2024/06/19 (PCIe) / 2024/06/20 (SATA)
-
-### 📂 BIOS Files
-- **PCIe**: `LP-BS-S70NC1R200-DR-B.bin`
-- **SATA**: `LP-BS-S70NC1R200-DR-B-SATA.bin`
-- **Compatible Models**: LattePanda Mu N100 / N305 **16GB**
+| Variant  | Compatible Model                   | Filename                         | Build Date |
+| :------- | :--------------------------------- | :------------------------------- | ---------- |
+| **PCIe** | LattePanda Mu N100 **8GB**         | `LP-BS-S70NC1R200-SR-B.bin`      | 2024/07/08 |
+| **PCIe** | LattePanda Mu N100 / N305 **16GB** | `LP-BS-S70NC1R200-DR-B.bin`      | 2024/06/19 |
+| **SATA** | LattePanda Mu N100 **8GB**         | `LP-BS-S70NC1R200-SR-B-SATA.bin` | 2024/07/05 |
+| **SATA** | LattePanda Mu N100 / N305 **16GB** | `LP-BS-S70NC1R200-DR-B-SATA.bin` | 2024/06/20 |
 
 
 ### 📝 Changelog

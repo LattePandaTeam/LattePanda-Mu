@@ -1,12 +1,16 @@
 # Beta BIOS
 
-Beta BIOS may contain unforeseen issues and is recommended for professional developers to try out only.
+- Beta BIOS may contain unforeseen issues and is recommended for professional developers to try out only.
+
+- Unless specified otherwise, these will not be merged into the main branches (DFLT and SATA) by default.
 
 ## LP-BS-S70NC1R200-SR-20240410
 
 Modified from **LP-BS-S70NC1R200-SR-A**, with IBECC option enabled for evaluating stability and performance differences.
 
 **Suitable for:** LattePanda Mu N100 8GB
+
+**Note:** The IBECC option has been integrated into the BIOS firmware of the main branches (DFLT and SATA).
 
 ## LP-BS-S70NC1R200-SR-DEBUG
 
