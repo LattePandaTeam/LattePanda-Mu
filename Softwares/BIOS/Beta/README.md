@@ -30,3 +30,8 @@ TGPIO function is enabled. A precise 1pps pulse signal is continuously output at
 
 **Suitable for:** LattePanda Mu N100 16GB / N305 16GB
 
+## S70NC1R200-8G-B-Windows-GPIO
+
+This firmware introduces native support for GPIO and I2C interfaces under Windows operating systems. 
+
+**Suitable for:** LattePanda Mu N100 8GB
