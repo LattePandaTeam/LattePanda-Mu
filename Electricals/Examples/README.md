@@ -17,3 +17,5 @@ It's recommended to start your design with the *\[DFR1142\]Lite Carrier for Latt
   - **External Control Headers:** Added pin headers for external power control and status indication.
   - **Sleep Indicator:** Added a dedicated LED for sleep mode status.
   - **BIOS Flash Chip Footprint:** Added a footprint for a carrier board BIOS flash chip (not soldered by default) for advanced customization.
+
+- **\[DFR1144\]GPU Carrier for LattePanda Mu**: The GPU carrier board features six video output ports, supports Type A/B MXM standard graphics cards, and adopts the 3.5-inch embedded motherboard form factor. It is suitable for local AI inference or multi-screen display matrix applications.
