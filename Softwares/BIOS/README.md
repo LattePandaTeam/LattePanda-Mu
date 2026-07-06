@@ -82,12 +82,12 @@ This repository includes official releases and beta versions of BIOS for various
 ## Release Timeline
 
 ```text
-    2024-06/07                 2025-12 (Latest)                      
-        │                          │
-        ●──────────────────────────●
-        │                          │
-[Initial Release]          [Current Recommended]
-    DFLT,SATA                  DFLT,SATA 
+    2024-06/07                  2025-12                    2026-06
+        │                          │                          |
+        ●──────────────────────────●──────────────────────────●
+        │                          │                          |
+[Initial Release]           [Second Release]          [Current Recommended]
+    DFLT,SATA                  DFLT,SATA                  DFLT,SATA 
 ```
 
 For specific model compatibility and functional changes, please refer to the `BOS Release Notes` located in each branch's folder.

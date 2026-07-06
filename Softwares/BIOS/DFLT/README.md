@@ -3,18 +3,33 @@
 ### For LattePanda Mu N100 **8GB** RAM Model:
 
 - LP-BS-S70NC1R200-SR-B
-- S70NC1R200-8G-A **(Latest)**
+- S70NC1R200-8G-A
+- S70NC1R200-8G-B **(Latest)**
 
 ### For LattePanda Mu N100 / N305 **16GB** RAM Model:
 
 - LP-BS-S70NC1R200-DR-B
-- S70NC1R200-16G-A **(Latest)**
+- S70NC1R200-16G-A
+- S70NC1R200-16G-B **(Latest)**
 
 ---
 
 # BIOS Release Notes
 
-## [2025-12] Latest Release
+## [2026-06] Latest Release
+### 📂 BIOS Files
+| Variant  | Compatible Model                   | Filename                    | Build Date |
+| :------- | :--------------------------------- | :-------------------------- | ---------- |
+| **PCIe** | LattePanda Mu N100 **8GB**         | `S70NC1R200-8G-B.bin`       | 2026/06/03 |
+| **PCIe** | LattePanda Mu N100 / N305 **16GB** | `S70NC1R200-16G-B.bin`      | 2026/06/03 |
+| **SATA** | LattePanda Mu N100 **8GB**         | `S70NC1R200-8G-B-SATA.bin`  | 2026/06/03 |
+| **SATA** | LattePanda Mu N100 / N305 **16GB** | `S70NC1R200-16G-B-SATA.bin` | 2026/06/03 |
+
+### 📝 Changelog
+1. Fixed a security bypass where pressing Enter with an empty password allowed read-only BIOS access. 
+2. Added support for controlling GPIO and I2C drivers directly within Windows. 
+
+## [2025-12] Second Release
 ### 📂 BIOS Files
 | Variant | Compatible Model | Filename | Build Date |
 | :--- | :--- | :--- | ---- |
