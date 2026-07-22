@@ -1,0 +1,362 @@
+(footprint "Battery_Holder_CR1220_S8411-45R"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(locked yes)
+	(layer "F.Cu")
+	(descr "S8411-45R_1")
+	(tags "Connector")
+	(property "Reference" "REF**"
+		(at 0.055 0.445 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "3ac0c296-f572-4d12-82d1-0f8de3b82e10")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Battery_Cell"
+		(at -0.412 -0.096 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "07b00fb7-b97e-4b98-953c-3531908c1ae6")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a84fa614-e21b-41de-8b30-79005d5e8f0a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a66e8985-ec5c-43fc-92d3-00b2bdd03c2d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Buy_Link" "https://item.szlcsc.com/1049689.html"
+		(at 0 0 90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "82a38620-c03d-470d-9079-8cac221b5a5f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "DF_Comment" "CR1220电池座贴片塑料"
+		(at 0 0 90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ac6f0107-5fa1-44b6-a4f0-907aee1cbc7a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "SCH_Show_Footprint" ""
+		(at 0 0 90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7ae8a766-1b99-4910-aaeb-efdd9cba75ad")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Field-1" ""
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e1d4b1c1-06ee-4ab6-a26f-aa6d130ed68b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Sim.Device" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "81ab9999-bf9a-4c4d-9c86-77a33fa520b4")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Sim.Pins" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4c927096-f20c-4d38-b109-ab8dc440c53f")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Sim.Type" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e95497c8-35f3-4e3d-8de6-834d80bc4d7c")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.1)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start 6.832 6.625)
+		(end 6.832 8.307)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "67759c81-91e6-41b0-b0a7-65a8629aa086")
+	)
+	(fp_line
+		(start 3.296 6.625)
+		(end 6.832 6.625)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6e570357-a5a0-48f5-8c49-3dc52f2de992")
+	)
+	(fp_line
+		(start 1.49 8.307)
+		(end 6.832 8.307)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7149f6d6-b07f-4f93-8f32-c9ee53d63d7e")
+	)
+	(fp_line
+		(start -1.553 8.307)
+		(end -6.832 8.307)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8434684a-c7ca-4629-94b7-d3472067434b")
+	)
+	(fp_line
+		(start -3.27 6.625)
+		(end -6.832 6.625)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b5d5c3c2-2103-4363-98ff-3585ee1de532")
+	)
+	(fp_line
+		(start -6.832 6.625)
+		(end -6.832 8.307)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1ef283c5-65ba-46c7-b293-dd2594286be4")
+	)
+	(fp_arc
+		(start 3.295287 -6.625787)
+		(mid 7.399995 -0.000884)
+		(end 3.29687 6.625)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "11103a12-c96c-42eb-b398-1d2acf1a42f6")
+	)
+	(fp_arc
+		(start -3.295295 6.625783)
+		(mid -7.399998 0.000879)
+		(end -3.29687 -6.625)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e1e751e2-74a0-483f-b0b3-6e21afe51be0")
+	)
+	(fp_line
+		(start 6.832 8.307)
+		(end -6.832 8.307)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "dd2f68e1-9074-4ec8-b5cd-04b66c718fa2")
+	)
+	(fp_line
+		(start 6.832 6.625)
+		(end 6.832 8.307)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8b472f10-543f-4334-b915-b5ef50b83514")
+	)
+	(fp_line
+		(start 3.27 6.625)
+		(end 6.832 6.625)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "81db05f6-4a44-4980-b4fd-fdf5a6e4e855")
+	)
+	(fp_line
+		(start -6.832 8.307)
+		(end -6.832 6.625)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "87884c57-aa7d-4623-acd1-c6faa0eb4757")
+	)
+	(fp_line
+		(start -6.832 6.625)
+		(end -3.29687 6.625)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8b7d43e5-f7b2-4384-92e9-3d3cbcafb880")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 7.4)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "071c0112-85d6-4bb0-b9fa-614d831b8367")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -0.412 -0.096 0)
+		(layer "F.Fab")
+		(uuid "94c1d406-9e59-47bc-a9f3-0c7b74581dd2")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at 0 -3.725 180)
+		(size 1.05 1.05)
+		(drill 1.05)
+		(layers "*.Cu" "*.Mask")
+		(uuid "31b98b3b-68b7-4340-a069-e2157f565d1f")
+	)
+	(pad "" np_thru_hole circle
+		(at 0 3.725 180)
+		(size 1.3 1.3)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask")
+		(uuid "98765ce2-8a17-4e08-a511-3e14487131c3")
+	)
+	(pad "1" smd rect
+		(at 0 8.2 180)
+		(size 2.3 4.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(teardrops
+			(best_length_ratio 0.5)
+			(max_length 0.5)
+			(best_width_ratio 1)
+			(max_width 2)
+			(curved_edges yes)
+			(filter_ratio 0.9)
+			(enabled yes)
+			(allow_two_segments yes)
+			(prefer_zone_connections no)
+		)
+		(uuid "5b8b25bd-d99e-4241-a539-f7c3a20e6888")
+	)
+	(pad "2" smd rect
+		(at 0 -8.2 180)
+		(size 2.3 4.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(teardrops
+			(best_length_ratio 0.5)
+			(max_length 0.5)
+			(best_width_ratio 1)
+			(max_width 2)
+			(curved_edges yes)
+			(filter_ratio 0.9)
+			(enabled yes)
+			(allow_two_segments yes)
+			(prefer_zone_connections no)
+		)
+		(uuid "028b58a6-4e5f-4220-a5e6-2f4a492c41f2")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/packages3D/S8411-45R.stp"
+		(offset
+			(xyz 0 -0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)
