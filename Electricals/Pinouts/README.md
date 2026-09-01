@@ -1,11 +1,25 @@
 # Pinouts
 
-All pin definitions for LattePanda Mu(N100/N305 Processor)
-
-⚠️ Note:  
-Due to the large number of functionally multiplexing pins, you should check the [BIOS functionality documentation](../../Softwares/BIOS/README.md) before starting your design. Do not design directly from the pin definition documentation here.
+All pin definitions for LattePanda Mu(N100/N305 Processor).
 
 ![pinout](./pinout.jpg)
+
+## Edge Connector Pinout
+
+The edge_connector of LattePanda Mu is designed for DDR4 260P SODIMM. But this pin table is too long, so we put it in a separate .xlsx file.
+
+- [LattePanda Mu Edge Connector Pinout](./LattePanda_Mu_Edge_Connector_Pinout.xlsx)
+
+⚠️ Note:  
+Due to the large number of functionally multiplexing pins, you should check the [BIOS functionality documentation](../../Softwares/BIOS/) before starting your design. Do not design directly from the pin definition documentation here.
+
+## Edge Connector Pinout Comparison
+
+LattePanda Mu and LattePanda Mu Ultra use the same edge connector, but their pin definitions are slightly different.
+
+To facilitate your comparison and evaluation, we have provided a pin comparison document for both models.
+
+- [LattePanda_Mu_and_Mu_Ultra_Pinout_Comparison](https://github.com/LattePandaTeam/LattePanda-Mu-Ultra/tree/main/Electricals/Pinouts/LattePanda_Mu_and_Mu_Ultra_Pinout_Comparison.xlsx)
 
 ## eDP
 
@@ -55,7 +69,7 @@ I-PEX 20455-040E
 | 40     | NC        |      |                          |                 |
 
 - **LCD_VCC**: +3.3V
-- **BL_PWR**: Same as LattePanda Mu input voltage
+- **BL_PWR**: Same as LattePanda Mu's power input voltage
 - **Selftest**: Factory test pin, ground by default
 
 ## Touch
@@ -113,12 +127,3 @@ Clamshell 22P 0.5mm FFC/FPC Connector
 | ESPI_CLK | 1   | 2   | +1.8V       |
 
 Contacts on eSPI bus for SoC to communicate with SuperIO, can be used to connect diagnostic card (untested).
-
-## Edge Connector(DDR4 SODIMM)
-
-The edge_connector of LattePanda Mu is designed for DDR4 260P SODIMM. But this pin table is too long, so I put it in a separate .xlsx file.
-
-- [LattePanda Mu Edge Connector Pinout](./LattePanda_Mu_Edge_Connector_Pinout.xlsx)
-
-⚠️ Note:  
-Due to the large number of functionally multiplexing pins, you should check the [BIOS functionality documentation](../../Softwares/BIOS/README.md) before starting your design. Do not design directly from the pin definition documentation here.

@@ -1,16 +1,16 @@
-# LattePanda Mu Library Files
+# LattePanda Mu / Mu Ultra Library Files
 
-Symbol and footprint libraries created with KiCAD 8.0. Please open with KiCAD version 8.0 or later.
+Symbol and footprint libraries created with KiCAD 9.0. Please open with KiCAD 9.0 or later.
 
 ## Files
 
-- **Module_LattePanda.pretty**: Footprint library for LattePanda Mu
+- **Module_LattePanda.pretty**: Footprint library for LattePanda Mu / Mu Ultra
 
-- **MCU_Module_LattePanda.kicad_sym**: Symbol library for LattePanda Mu
+- **MCU_Module_LattePanda.kicad_sym**: Symbol library for LattePanda Mu / Mu Ultra
 
 ## Installation
 
-Compatible with KiCAD version 8.0 or later.
+Compatible with KiCAD 9.0 or later.
 
 For installation instructions, please refer to the official KiCAD documentation:
 

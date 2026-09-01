@@ -3,8 +3,9 @@
 This repository includes official releases and beta versions of BIOS for various branches, as well as related tools.
 
 - ⚠ Generally, you should only upgrade the BIOS of the same branch. Cross-branch upgrades should only be performed when testing different BIOS features.
-- ⚠ Upgrading the BIOS across different branches will invalidate the Secure Boot keys.
+- ⚠ Upgrading the BIOS across different branches may invalidate the Secure Boot keys.
 - ⚠ Upgrading to the incorrect BIOS branch may result in some functions of the carrier board not working properly.
+- ⚠ BIOS files under `Carrier-Boards` are designed exclusively for the specific carrier boards. Do NOT flash them onto a LattePanda Mu paired with any other carrier board or no carrier board.
 
 ------
 
@@ -72,10 +73,11 @@ This repository includes official releases and beta versions of BIOS for various
 
 ## Folder Description
 
-- Beta: Beta version BIOS, not specific to any branch, intended for professional developers to assess new features.
-- DFLT: Default version BIOS, which is the BIOS branch that comes pre-installed on the LattePanda Mu.
-- SATA: A BIOS branch that provides SATA interface signal.
-- Tools: Tools for BIOS maintenance.
+- **Beta**: Beta version BIOS, not specific to any branch, intended for professional developers to assess new features.
+- **DFLT**: Default version BIOS, which is the BIOS branch that comes pre-installed on the LattePanda Mu.
+- **SATA**: A BIOS branch that provides SATA interface signal.
+- **Carrier-Boards**: BIOS branches dedicated to specific carrier boards. Flash only the BIOS matching your carrier board.
+- **Tools**: Tools for BIOS maintenance.
 
 ------
 
