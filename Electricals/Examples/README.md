@@ -27,3 +27,7 @@ It's recommended to start your design  by referring to the *\[DFR1142\] Lite Car
 ## Compatibility List
 
 Compatibility varies between different compute modules and different carrier boards. Please visit the [**Carrier Board Docs**](https://docs.lattepanda.com/content/mu_edition/module_carrier_compatibility/) for the compatibility list.
+
+## Mechanical Files
+
+For the 2D drawings and 3D models of the carrier boards, please see [Mechanicals/Carrier-Boards](../../Mechanicals/Carrier-Boards).

@@ -20,6 +20,6 @@ Welcome to the repository of development resources for the LattePanda Mu. With i
 
 - **Electricals**: This includes pin descriptions, symbols and footprint libraries, project templates, and example projects.
 
-- **Mechanicals**: This section provides dimensional drawings and 3D models of the LattePanda Mu, its heatsink, and other accessories.
+- **Mechanicals**: This section provides dimensional drawings and 3D models of the LattePanda Mu, its heatsink, and various carrier boards.
 
 - **Software**: BIOS, firmware, drivers, and other related software resources.
