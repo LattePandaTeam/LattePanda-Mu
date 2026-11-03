@@ -10,7 +10,7 @@ Welcome to the repository of development resources for the LattePanda Mu. With i
 
 - [**Carrier Board Hardware Design Guide**](https://docs.lattepanda.com/content/mu_edition/design_guide_foreword/)
 
-- [**Carrier Board User Guide**](https://docs.lattepanda.com/content/mu_edition/lite_carrier/)
+- [**Carrier Board Compatibility & User Guide**](https://docs.lattepanda.com/content/mu_edition/module_carrier_compatibility/)
 
 - [**LattePanda Website**](https://www.lattepanda.com/)
 
